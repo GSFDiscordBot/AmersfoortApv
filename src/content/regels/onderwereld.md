@@ -268,7 +268,7 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 
 4. Juiste aantallen hostages & Wapens voor overvallen:
 	- Voor een Winkel Overval moet er minimaal **2** hostages zijn, minimaal **1** steekwapen of vuurwapen.
-	- Voor een Ammo Store moeten er minimaal **2** hostages zijn, minimaal **1** categorie **1** vuurwapen.
+	- Voor een Ammunition Store moeten er minimaal **2** hostages zijn, minimaal **1** categorie **1** vuurwapen.
 	- Voor een Legerbasis Overval moeten er minimaal **2** hostages zijn, minimaal 1 categorie **1** vuurwapen.
 	- Voor een Kleine bank overval moeten er minimaal **3** hostages zijn, minimaal **1** categorie **2** vuurwapen.
 	- Voor een Humane Labs overval moeten er minimaal **4** hostages zijn, minimaal **1** categorie **2** vuurwapen & **1** categorie **1** vuurwapen.
@@ -304,7 +304,7 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 4. Het is niet toegestaan om als bestuurder van een motor of auto te **handsuppen** dit mag enkel de bijrijder.
 
 ### Artikel 129.OW Hostage Situaties
-1. Wanneer je een Winkel ov, Bank, Plofkraak, Ammonution Store, Legerbasis Overval of Juwelier overvallen hebt.
+1. Wanneer je een Winkel ov, Bank, Plofkraak, Ammunition Store, Legerbasis Overval of Juwelier overvallen hebt.
 	- Is het toegestaan om 1x een gijzeling binnen 30 minuten te starten. Mocht je voor een 2e keer binnen 30 minuten een gijzeling starten is er een mogelijkheid dat de DSI ingrijpt. 
 2. Mocht je in een hostage situatie (hieronder gelden ook alle vormen van overvallen) zitten en de politie is aangekoppeld aan de situatie is het verboden de hostage situatie te verlaten **(enkel pas na groenlicht)**.
 3. Je mag per hostage situatie maximaal 2 agenten hostage nemen als deze gezamenlijk als koppel rond rijden. Rijdt deze agent alleen, dan blijft het maximaal 1 agent!
@@ -320,9 +320,9 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 ### Artikel 130.OW Hit en Run
 1. Het is niet toegestaan om een overval te doen en de locatie direct daarna te verlaten. (ook wel genoemd Hit en Run)
 2. Je moet minimaal 10 minuten wachten op de locatie of er Politie- of Kmar-eenheden aankoppelen. Is dat niet het geval, dan mag je na de 10 minuten de locatie verlaten.
-3. Het is enkel toegestaan om een Hit en Run te doen op de Ammonution Special Overval. (hiervoor moet je een categorie **1** wapen op zak hebben om te starten.)
+3. Het is enkel toegestaan om een Hit en Run te doen op de Ammunition Special Overval. (hiervoor moet je een categorie **1** wapen op zak hebben om te starten.)
 4. Indien je ervoor kiest om de overval te starten zonder Categorie 1 wapen valt dit alsnog onder Hit en Run.
-3.  Het is toegestaan om enkel en alleen de Ammonution Special Overval te doen zonder Hostages. (Let op Politie, Kmar & Criminelen mogen bij aankoppeling direct binnenvallen.)
+3.  Het is toegestaan om enkel en alleen de Ammunition Special Overval te doen zonder Hostages. (Let op Politie, Kmar & Criminelen mogen bij aankoppeling direct binnenvallen.)
 5. Voor de wapens die je ontvangt uit de overval is het verplicht om een **wapenlijst** ticket aan te maken.
 
 ### Artikel 131.OW Knockout slaan
@@ -370,8 +370,8 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 ### Artikel 136.OW Beleid Aannemen & Ontslaan.
 
 1. Bij ontslag van een crimineel moet eerst zijn ID-kaart in-game worden afgenomen en daarna mag hij pas worden neergeschoten; rollen in discords mogen pas daarna worden verwijderd.
-2. Het ontslag moet worden vastgelegd met een clip in een Overige Vragen-ticket; bij overtreding ontvangt de gang -5 punten. Als de crimineel binnen 24 uur niks meer van zich laat horen en de discords verlaat, volgt een straf van 175 taken.
-3. Nieuwe leden moeten minimaal 3 dagen in de gang blijven, tenzij anders afgesproken met OWC; bij niet-naleving volgt een straf van 200 taken.
+2. Het ontslag moet worden vastgelegd met een clip in een Overige Vragen-ticket; bij overtreding ontvangt de gang -5 punten. Als de crimineel binnen 24 uur niks meer van zich laat horen en de discords verlaat, volgt een straf van 850 taken.
+3. Nieuwe leden moeten minimaal 3 dagen in de gang blijven, tenzij anders afgesproken met OWC; bij niet-naleving volgt een straf van 1000 taken.
 
 ### Artikel 137.OW Beleid Porto OOC.
 

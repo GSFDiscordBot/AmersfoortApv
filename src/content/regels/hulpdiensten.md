@@ -164,7 +164,7 @@ De scenario's hieronder zijn richtlijnen. De politie mag dus te allen tijde hier
        - Maximaal 3 Eenheden (3 Voertuigen)
 4. Winkel Overval.
        - Maximaal 5 Eenheden (5 Voertuigen)
-5. Ammon Store Overval.
+5. Ammunition Store Overval.
        - Maximaal 5 Eenheden (5 Voertuigen)
 6. Kleine Gijzeling (5+ Hostages).
        - Maximaal 6 Eenheden (6 Voertuigen)
