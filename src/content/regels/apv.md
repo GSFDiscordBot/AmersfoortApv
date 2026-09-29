@@ -15,14 +15,14 @@
 Bij elk artikel staat de categorie van de straf. Een staflid mag hier altijd van afwijken.
 
 :::categorieen
-1 | Waarschuwing + 50 taken
-2 | Waarschuwing + 75 taken
-3 | Waarschuwing + 100 taken
-4 | Waarschuwing + 125 taken
-5 | Waarschuwing + 150 taken
-6 | Waarschuwing + 175 taken
-7 | Waarschuwing + 200 taken
-8 | Ban van 1 week + 175 taken
+1 | Waarschuwing + 100 taken
+2 | Waarschuwing + 250 taken
+3 | Waarschuwing + 400 taken
+4 | Waarschuwing + 550 taken
+5 | Waarschuwing + 700 taken
+6 | Waarschuwing + 850 taken
+7 | Waarschuwing + 1000 taken
+8 | Ban van 1 week + 500 taken
 9 | Permanente ban
 10 | Account wipe + permanente ban
 :::
