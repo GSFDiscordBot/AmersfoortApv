@@ -156,7 +156,9 @@ function categorieBlokken(tekst: string): string {
       .map((r) => r.match(/^\s*(\d+)\s*\|\s*(.+?)\s*$/))
       .filter((m): m is RegExpMatchArray => m !== null)
       .map((m) => {
-        return `<div class="cat-tegel"><span class="cat-nr">Categorie ${Number(m[1])}</span><span class="cat-tekst">${m[2]}</span></div>`;
+        const n = Number(m[1]);
+        const bolletjes = Array.from({ length: 10 }, (_, i) => `<i${i < n ? ' class="aan"' : ''}></i>`).join('');
+        return `<div class="cat-tegel"><span class="cat-nr">Categorie ${n}</span><span class="meter" aria-hidden="true">${bolletjes}</span><span class="cat-tekst">${m[2]}</span></div>`;
       })
       .join('');
     return `<div class="cat-grid">${tegels}</div>\n`;

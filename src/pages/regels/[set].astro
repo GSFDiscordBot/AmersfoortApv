@@ -70,7 +70,14 @@ const telling = alleArtikelen.length;
                     {a.nr && <span class="nr">{a.nr}</span>}
                     <h3>{a.titel}</h3>
                     {a.straffen.map((s) => (
-                      <span class="badge straf">{s.label}</span>
+                      <span class="badge straf">
+                        {s.label}
+                        {s.nr && (
+                          <span class="meter" aria-hidden="true">
+                            {Array.from({ length: 10 }, (_, i) => <i class:list={{ aan: i < Number(s.nr) }} />)}
+                          </span>
+                        )}
+                      </span>
                     ))}
                   </summary>
                   <div class="prose" set:html={a.html} />

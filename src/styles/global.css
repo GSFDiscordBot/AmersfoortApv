@@ -243,3 +243,11 @@ html { scrollbar-color: #24406b var(--bg); scrollbar-width: thin; }
 .sidebar::-webkit-scrollbar-thumb:hover { background: var(--blue); }
 .tw::-webkit-scrollbar-track { background: transparent; }
 .tw::-webkit-scrollbar-thumb { border-color: var(--bg-2); }
+
+/* Zwaarte als schaal van 10 bolletjes, in één kleur */
+.meter { display: inline-flex; align-items: center; gap: 3px; }
+.meter i { width: 6px; height: 6px; border-radius: 50%; background: rgba(102,208,255,.22); }
+.meter i.aan { background: var(--blue-2); box-shadow: 0 0 6px rgba(46,168,255,.55); }
+.badge.straf { display: inline-flex; align-items: center; gap: 10px; }
+.cat-tegel .meter { margin: 2px 0 4px; }
+.cat-tegel .meter i { width: 7px; height: 7px; }
