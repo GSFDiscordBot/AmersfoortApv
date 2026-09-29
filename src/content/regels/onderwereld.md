@@ -97,8 +97,8 @@ Het moment dat er minder dan 20 agenten zijn in F10 mag je maximaal 1 agent host
 ### Artikel 107.OW -  Verboden Twitter-berichten
 Het plaatsen van illegale activiteiten op Twitter is ten strengste verboden. 
 Berichten zoals:
-* - 1 Peaky Blinders
-* - 1 Pistol Deadly Tribes
+* -1 Peaky Blinders
+* -1 Pistol Deadly Tribes
 * Wapen gezocht
 * Waterpistool te koop/gezocht
 * Broodje mesje te koop/gezocht
