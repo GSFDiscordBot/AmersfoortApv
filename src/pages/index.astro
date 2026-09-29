@@ -3,6 +3,18 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { sets } from '../lib/sets';
 import { url } from '../lib/url';
+
+// [artikelnummer, titel, anchor in de APV]
+const snel = [
+  ['1', 'FailRP', 'artikel-1-failrp-powergaming'],
+  ['2', 'Cheats', 'artikel-2-cheats'],
+  ['9.1', 'Combat-logging', 'artikel-9-1-combat-logging'],
+  ['11', 'Value of Life', 'artikel-11-value-of-life'],
+  ['20', 'Greenzones', 'artikel-20-greenzone'],
+  ['21', 'VDM', 'artikel-21-vdm'],
+  ['22.1', 'RDM', 'artikel-22-1-rdm-crimineel'],
+  ['44', 'Refunds', 'artikel-44-refunds'],
+];
 ---
 
 <Base active="home">
@@ -17,6 +29,17 @@ import { url } from '../lib/url';
       </p>
       <a class="btn" href={url('regels/apv/')}>Bekijk de APV</a>
       <a class="btn ghost" href={url('info/')}>Discord-servers</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title"><h2>Veelgezocht in de APV</h2></div>
+      <div class="snel">
+        {snel.map(([nr, titel, slug]) => (
+          <a href={url(`regels/apv/#${slug}`)}><small>{nr}</small> {titel}</a>
+        ))}
+      </div>
     </div>
   </section>
 
