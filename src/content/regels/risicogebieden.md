@@ -2,7 +2,7 @@
 
 Amersfoort kent meerdere risicogebieden. In een risicogebieden mag preventief gefouilleerd worden. Dus dat wilt zeggen dat ook voertuigen gecontroleerd mogen worden. Hier onder zijn deze gebieden aangegeven.
 
-De korpsleiding is bevoegd om, in samenspraak met de Hoge Raad van Amersfoort, aanvullende risicogebieden aan te wijzen. Denk hierbij aan een noodverordering. Hiervoor gelden dezelfde regels als de normale risicogebieden.
+De korpsleiding is bevoegd om, in samenspraak met Beheer / Bestuur van Amersfoort, aanvullende risicogebieden aan te wijzen. Denk hierbij aan een noodverordering. Hiervoor gelden dezelfde regels als de normale risicogebieden.
 
 ### Kaartweergave
 
