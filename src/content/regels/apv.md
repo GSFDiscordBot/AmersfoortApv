@@ -24,6 +24,7 @@ Bij elk artikel staat de categorie van de straf. Een staflid mag hier altijd van
 7 | Waarschuwing + 200 taken
 8 | Ban van 1 week + 175 taken
 9 | Permanente ban
+10 | Account wipe + permanente ban
 :::
 
 ## Algemene bepalingen
