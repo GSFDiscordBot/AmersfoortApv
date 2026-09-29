@@ -103,10 +103,8 @@ Straf: Categorie 9
     - helmen dragen waarmee je geen headshot kunt krijgen
     - een emote gebruiken om sneller te rennen
     - de jump exploit en MonkeySlap
-3. De porto's van een overheidsinstantie joinen zonder daar de baan voor te hebben levert categorie 7 op. Overheidsbanen zijn: Politie, Ambulance, Taxi, ANWB, Advocatuur / Justitie en Gemeente (Staff).
 
 Straf: Categorie 2
-Straf: Categorie 7 (porto's joinen)
 
 ### Artikel 4 - Verstoring RP
 1. Het is verboden om moedwillig de RP van andere spelers te verstoren.
