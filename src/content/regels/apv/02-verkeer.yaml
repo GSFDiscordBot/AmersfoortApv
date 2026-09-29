@@ -1,0 +1,17 @@
+titel: Verkeer
+volgorde: 2
+intro: "VOORBEELDTEKST. Verkeersregels en bijbehorende boetes."
+artikelen:
+  - nr: "2.1"
+    titel: Snelheidsovertreding
+    categorie: Verkeer
+    niveau: licht
+    boete: 250
+    tekst: Voorbeeldartikel. Het is verboden harder te rijden dan de toegestane snelheid.
+  - nr: "2.2"
+    titel: Roekeloos rijgedrag
+    categorie: Verkeer
+    niveau: zwaar
+    boete: 1500
+    straf: 15 minuten cel
+    tekst: Voorbeeldartikel. Het is verboden zo te rijden dat andere weggebruikers in gevaar komen.

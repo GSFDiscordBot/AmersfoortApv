@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import { sets } from '../lib/sets';
+import { url } from '../lib/url';
+---
+
+<Base active="home">
+  <section class="hero">
+    <div class="container">
+      <img src={url('logo.gif')} alt="Amersfoort RolePlay" />
+      <div class="kicker">Amersfoort RolePlay</div>
+      <h1>Regels &amp; Wetgeving</h1>
+      <p class="lead">
+        Alles wat je moet weten over de nieuwe stad: de APV, het wetboek en de regels voor onderwereld en
+        hulpdiensten. Overzichtelijk, doorzoekbaar en altijd up-to-date.
+      </p>
+      <a class="btn" href={url('regels/apv/')}>Bekijk de APV</a>
+      <a class="btn ghost" href={url('info/')}>Discord &amp; info</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title"><h2>Regelboeken</h2></div>
+      <div class="grid">
+        {sets.map((s) => (
+          <a class="card" href={url(`regels/${s.slug}/`)}>
+            <div class="icon">{s.icoon}</div>
+            <h3>{s.lang}</h3>
+            <p>{s.beschrijving}</p>
+            <span class="more">Openen →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title"><h2>Direct naar</h2></div>
+      <div class="grid">
+        <a class="card" href={url('info/')}>
+          <div class="icon">💬</div>
+          <h3>Discord-servers</h3>
+          <p>De officiële servers van Amersfoort RolePlay.</p>
+        </a>
+        <a class="card" href={url('info/faq/')}>
+          <div class="icon">❓</div>
+          <h3>Veelgestelde vragen</h3>
+          <p>Snelle antwoorden voor nieuwe spelers.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>
