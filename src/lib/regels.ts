@@ -70,12 +70,49 @@ function haalStraf(body: string): { body: string; categorie?: string; catNr?: st
   return { body: body.replace(re, ''), categorie: label.replace(/catogorie/i, 'Categorie'), catNr: nr };
 }
 
+const tekstVan = (h: string) =>
+  h.replace(/<[^>]+>/g, '').replace(/&euro;/g, '€').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+
+const algemeneKoppen = new Set(['', 'feit', 'type', 'dienst', 'straf', 'categorie', 'omschrijving']);
+
+// Boete-/straftabellen worden rijen met ronde badges; andere tabellen blijven tabellen.
+function pilTabel(tabel: string): string | null {
+  const koppen = [...tabel.matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => m[1].trim());
+  const rijen = [...tabel.matchAll(/<tr>\s*((?:<td[^>]*>[\s\S]*?<\/td>\s*)+)<\/tr>/g)].map((m) =>
+    [...m[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((c) => c[1].trim()),
+  );
+  if (koppen.length < 2 || rijen.length === 0) return null;
+  const koptekst = koppen.map(tekstVan).join(' ').toLowerCase();
+  if (!/boete|celstraf|straf|prijs|kosten/.test(koptekst)) return null;
+  if (rijen.some((r) => r.slice(1).some((c) => tekstVan(c).length > 45))) return null;
+
+  const titel = tekstVan(koppen[0]);
+  const titelHtml = algemeneKoppen.has(titel.toLowerCase()) ? '' : `<div class="pt-titel">${titel}</div>`;
+  const rijHtml = rijen
+    .map((cellen) => {
+      const pillen = cellen
+        .slice(1)
+        .map((c, i) => {
+          let waarde = tekstVan(c);
+          if (!waarde) return '';
+          const kop = tekstVan(koppen[i + 1] ?? '');
+          const geld = waarde.match(/^€\s*([\d.]+)(?:,-|,–)?\s*-?$/);
+          if (geld) waarde = '€ ' + Number(geld[1].replace(/\./g, '')).toLocaleString('nl-NL');
+          const soort = geld || /boete|prijs|kosten/i.test(kop) ? 'geld' : /straf|maand/i.test(kop + waarde) ? 'tijd' : 'neutraal';
+          return `<span class="pil ${soort}">${kop ? `<small>${kop}</small>` : ''}<b>${waarde}</b></span>`;
+        })
+        .join('');
+      return `<div class="pt-rij"><span class="pt-label">${cellen[0]}</span><span class="pt-pillen">${pillen}</span></div>`;
+    })
+    .join('');
+  return `<div class="pilltabel">${titelHtml}${rijHtml}</div>`;
+}
+
 function render(md: string, base: string): string {
   let html = marked.parse(md, { async: false, gfm: true }) as string;
   html = html
     .replace(/(src|href)="(?:\.\.\/|\/)?img\//g, `$1="${base}/img/`)
-    .replace(/<table/g, '<div class="tw"><table')
-    .replace(/<\/table>/g, '</table></div>');
+    .replace(/<table[\s\S]*?<\/table>/g, (t) => pilTabel(t) ?? `<div class="tw">${t}</div>`);
   return html;
 }
 

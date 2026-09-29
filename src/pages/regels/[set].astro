@@ -62,7 +62,11 @@ const telling = alleArtikelen.length;
                   <header>
                     {a.nr && <span class="nr">{a.nr}</span>}
                     <h3>{a.titel}</h3>
-                    {a.categorie && <span class="badge straf">{a.categorie}</span>}
+                    {a.categorie && (
+                      <span class={`badge straf ${Number(a.catNr) <= 3 ? 'laag' : Number(a.catNr) <= 6 ? 'midden' : 'hoog'}`}>
+                        {a.categorie}
+                      </span>
+                    )}
                   </header>
                   <div class="prose" set:html={a.html} />
                 </article>
