@@ -291,13 +291,13 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 6. Mocht je niet aan deze eisen voldoen voor de overvallen heb je kans dat de DSI binnenvalt.
 
 
-### Artikel 127.0W Pluklocaties
+### Artikel 127.OW Pluklocaties
 1. Het is verboden personen te handsuppen op pluklocaties.
 2. Het is niet toegestaan personen te rippen op pluklocaties.
 3. Het is verboden drugs te stelen uit een kofferbak of een helikopter.
 
 
-### Artikel 128.0W Handsuppen
+### Artikel 128.OW Handsuppen
 1. Het is alleen toegestaan om een persoon te handsuppen als jij een geldige reden hebt om dit te doen, en dit ook kan aantonen door middel van een clip of dergelijke.
 2. Een geldige reden valt bijvoorbeeld onder:
       - De ripregels
@@ -332,7 +332,7 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 2. De enige manier om iemand iets te laten vergeten over wat er in game is gebeurd is door het gebruik maken van een 'drugspil' (deze is verkrijgbaar in de onderwereld).
    Je kan deze pil aan iemand geven en die persoon kan hem gebruiken. De persoon zal 20 seconden duizelig worden en alle gebeurtenissen van het laatste uur vergeten.
 
-### Artikel 132.0W Verwerk/verkoop locaties
+### Artikel 132.OW Verwerk/verkoop locaties
 1. Het is verboden personen te handsuppen op verwerklocaties.
 
 2. Het is niet toegestaan personen te rippen op verwerklocaties.
@@ -341,11 +341,11 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 5. Het  is niet toegestaan om op ecstasy verkoop in de stad personen te rippen (bij deze verkoop kan je je zakjes voor goedkoper verkopen dan in het noorden)
 6. Het is toegestaan om op Juwelen verkoop te rippen.
 
-### Artikel 133.0W Lossgeld eisen voor gangmembers
+### Artikel 133.OW Lossgeld eisen voor gangmembers
 1. Zodra er een member van een gang (bijvoorbeeld een boss of underboss) door iemand wordt vastgehouden mag hier maximaal 500.000,- aan losgeld voor worden geëist.
 2. Een member van een gang mag maar 1 keer per dag gehostaged worden door dezelfde gang.
 
-### Artikel 134.0W Vrijbreken van gangmembers
+### Artikel 134.OW Vrijbreken van gangmembers
 
 1. Als je tijdens een scenario je vriend inculsief wapen wilt terug eisen, gelden de volgende regels:
 	- Het is alleen mogelijk om je vriend terug te krijgen door het voertuig die weg rijd vanaf het senario waarin hij/zij word vervoerd te counteren met minimaal 2 vuurwapens!
@@ -356,7 +356,7 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 4. Het is verplicht voor de agent die een verdachte vervoert ook het inbeslaggenomen vuurwapen/slagwapen opzak te hebben.
 5. Het is niet toegestaan om het busje te counteren of enige actie te ondernemen zodra het busje zich op de parkeerplaats bevindt.
 
-### Artikel 135.0W Gijzeling
+### Artikel 135.OW Gijzeling
 
 1. Wanneer criminelen een gijzeling beginnen en de politie aangekoppeld is, moeten ze ten alletijd binnen 10 meter van de hostage blijven. 
 	- Dit geldt ook voor de crimineel die gaat onderhandelen. (Tenzij anders aangegeven door de onderhandelaar)

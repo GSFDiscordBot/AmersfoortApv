@@ -1,13 +1,17 @@
 import { marked } from 'marked';
 
+export interface Straf {
+  label: string; // bijv. "Categorie 4 + wapen inleveren"
+  nr?: string; // bijv. "4"
+}
+
 export interface Artikel {
   id: string;
   nr: string;
   titel: string;
   html: string;
   tekst: string; // platte tekst, voor zoeken
-  categorie?: string; // bijv. "Categorie 6"
-  catNr?: string; // bijv. "6"
+  straffen: Straf[];
 }
 
 export interface Hoofdstuk {
@@ -35,7 +39,8 @@ const slug = (t: string) =>
 // "Artikel 22.1 - RDM" -> nr "22.1", titel "RDM"; "A1 - Reikwijdte" -> nr "A1"
 function splitKop(kop: string): { nr: string; titel: string } {
   const zonder = kop.replace(/^Artikel\s+/i, '');
-  const m = zonder.match(/^((?:[IVX]+-\d+)|(?:A\d+)|(?:\d+(?:\.\s?[A-Z]+|\.\d+)?))\s*[-–—]?\s*(.*)$/);
+  // nummers als "22.1", "101.OW", "103.1.OW", "1.INF", "212.HD", "I-1", "A3"
+  const m = zonder.match(/^((?:[IVX]+-\d+)|(?:A\d+)|(?:\d+(?:\.\d+)*(?:\.\s?[A-Za-z]+)?))\s*[-–—]?\s*(.*)$/);
   return m ? { nr: m[1].replace(/\s+/g, ''), titel: m[2] || zonder } : { nr: '', titel: kop };
 }
 
@@ -58,16 +63,27 @@ function admonitions(tekst: string): string {
   return uit.join('\n');
 }
 
-// Haalt "| Straf | Categorie 6 |" uit de tekst en geeft het los terug
-function haalStraf(body: string): { body: string; categorie?: string; catNr?: string } {
-  const re = /^\|\s*Straf\s*\|([^\n]*)\n\|[\s:|-]+\|[ \t]*\n?/m;
-  const m = body.match(re);
-  if (!m) return { body };
-  const cellen = m[1].split('|').map((c) => c.trim()).filter(Boolean);
-  const label = cellen.join(' · ');
-  const nr = label.match(/(?:categorie|catogorie|cat\.?)\s*(\d+)/i)?.[1];
-  if (!nr) return { body };
-  return { body: body.replace(re, ''), categorie: label.replace(/catogorie/i, 'Categorie'), catNr: nr };
+const catNummer = (t: string) => t.match(/(?:categorie|catogorie|cat\.?)\s*(\d+)/i)?.[1];
+
+// Haalt "Straf: Categorie 6" (één of meer regels) uit de tekst en geeft het los terug
+function haalStraf(body: string): { body: string; straffen: Straf[] } {
+  const straffen: Straf[] = [];
+  let rest = body.replace(/^[ \t]*Straf:[ \t]*(.+?)[ \t]*$/gim, (_m, t: string) => {
+    straffen.push({ label: t, nr: catNummer(t) });
+    return '';
+  });
+  // oudere tabelvorm: "| Straf | Categorie 6 |"
+  if (straffen.length === 0) {
+    const re = /^\|\s*Straf\s*\|([^\n]*)\n\|[\s:|-]+\|[ \t]*\n?/m;
+    const m = rest.match(re);
+    const label = m?.[1].split('|').map((c) => c.trim()).filter(Boolean).join(' · ') ?? '';
+    const nr = catNummer(label);
+    if (m && nr) {
+      straffen.push({ label: label.replace(/catogorie/i, 'Categorie'), nr });
+      rest = rest.replace(re, '');
+    }
+  }
+  return { body: rest, straffen };
 }
 
 const tekstVan = (h: string) =>
@@ -108,11 +124,52 @@ function pilTabel(tabel: string): string | null {
   return `<div class="pilltabel">${titelHtml}${rijHtml}</div>`;
 }
 
+// Overige tabellen: eerste kolom als badge, de rest als tekst ernaast
+function tekstRijen(tabel: string): string {
+  const koppen = [...tabel.matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => tekstVan(m[1]));
+  const rijen = [...tabel.matchAll(/<tr>\s*((?:<td[^>]*>[\s\S]*?<\/td>\s*)+)<\/tr>/g)].map((m) =>
+    [...m[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((c) => c[1].trim()),
+  );
+  if (rijen.length === 0) return tabel;
+  const rijHtml = rijen
+    .map((cellen) => {
+      const [eerste, ...rest] = cellen;
+      const cellenHtml = rest
+        .map((c, i) => {
+          if (!tekstVan(c)) return '';
+          const kop = koppen[i + 1];
+          return `<span class="pt-cel">${rest.length > 1 && kop ? `<small>${kop}</small>` : ''}${c}</span>`;
+        })
+        .join('');
+      const pil = tekstVan(eerste) ? `<span class="pil neutraal"><b>${eerste}</b></span>` : '';
+      return `<div class="pt-rij tekst">${pil}<span class="pt-tekst">${cellenHtml}</span></div>`;
+    })
+    .join('');
+  return `<div class="pilltabel">${rijHtml}</div>`;
+}
+
+// :::categorieen ... ::: -> raster met gekleurde tegels ("1 | Waarschuwing + 50 taken")
+function categorieBlokken(tekst: string): string {
+  return tekst.replace(/^:::categorieen[ \t]*\n([\s\S]*?)\n:::[ \t]*$/gm, (_m, blok: string) => {
+    const tegels = blok
+      .split('\n')
+      .map((r) => r.match(/^\s*(\d+)\s*\|\s*(.+?)\s*$/))
+      .filter((m): m is RegExpMatchArray => m !== null)
+      .map((m) => {
+        const n = Number(m[1]);
+        const kleur = n <= 3 ? 'laag' : n <= 6 ? 'midden' : 'hoog';
+        return `<div class="cat-tegel c-${kleur}"><span class="cat-nr">Categorie ${n}</span><span class="cat-tekst">${m[2]}</span></div>`;
+      })
+      .join('');
+    return `<div class="cat-grid">${tegels}</div>\n`;
+  });
+}
+
 function render(md: string, base: string): string {
   let html = marked.parse(md, { async: false, gfm: true }) as string;
   html = html
     .replace(/(src|href)="(?:\.\.\/|\/)?img\//g, `$1="${base}/img/`)
-    .replace(/<table[\s\S]*?<\/table>/g, (t) => pilTabel(t) ?? `<div class="tw">${t}</div>`);
+    .replace(/<table[\s\S]*?<\/table>/g, (t) => pilTabel(t) ?? tekstRijen(t));
   return html;
 }
 
@@ -120,7 +177,7 @@ const platteTekst = (html: string) =>
   html.replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
 
 export function parseRegels(bron: string, base: string): Hoofdstuk[] {
-  const tekst = admonitions(bron.replace(/\r\n/g, '\n').replace(/\t/g, '    '));
+  const tekst = categorieBlokken(admonitions(bron.replace(/\r\n/g, '\n').replace(/\t/g, '    ')));
   const hoofdstukken: { titel: string; intro: string[]; artikelen: { kop: string; regels: string[] }[] }[] = [];
   let hs: (typeof hoofdstukken)[number] | null = null;
   let art: { kop: string; regels: string[] } | null = null;
@@ -161,16 +218,15 @@ export function parseRegels(bron: string, base: string): Hoofdstuk[] {
       introHtml: h.intro.join('\n').trim() ? render(h.intro.join('\n'), base) : '',
       artikelen: h.artikelen.map((a) => {
         const { nr, titel } = splitKop(a.kop);
-        const { body, categorie, catNr } = haalStraf(a.regels.join('\n'));
+        const { body, straffen } = haalStraf(a.regels.join('\n'));
         const html = render(body.trim(), base);
         return {
           id: uniek(slug(a.kop)),
           nr,
           titel,
           html,
-          tekst: `${nr} ${titel} ${platteTekst(html)} ${categorie ?? ''}`.toLowerCase(),
-          categorie,
-          catNr,
+          tekst: `${nr} ${titel} ${platteTekst(html)} ${straffen.map((s) => s.label).join(' ')}`.toLowerCase(),
+          straffen,
         };
       }),
     }));

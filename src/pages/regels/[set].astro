@@ -15,10 +15,11 @@ const bron = (await getCollection('regels')).find((e) => e.id === set.slug);
 const hoofdstukken = bron?.body ? parseRegels(bron.body, base) : [];
 
 const alleArtikelen = hoofdstukken.flatMap((h) => h.artikelen);
-const categorieen = [...new Set(alleArtikelen.map((a) => a.catNr).filter(Boolean))].sort(
-  (a, b) => Number(a) - Number(b),
-) as string[];
+const categorieen = [
+  ...new Set(alleArtikelen.flatMap((a) => a.straffen.map((s) => s.nr)).filter(Boolean)),
+].sort((a, b) => Number(a) - Number(b)) as string[];
 const telling = alleArtikelen.length;
+const catKleur = (n?: string) => (Number(n) <= 3 ? 'laag' : Number(n) <= 6 ? 'midden' : 'hoog');
 ---
 
 <Base title={set.lang} description={set.beschrijving} active={set.slug}>
@@ -33,10 +34,18 @@ const telling = alleArtikelen.length;
       <div class="notice">Dit regelboek wordt nog ingevuld.</div>
     ) : (
       <div class="layout">
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
           <h4>Inhoud</h4>
           {hoofdstukken.map((h) => (
-            <a href={`#${h.id}`} data-hoofdstuk={h.id}>{h.titel}</a>
+            <div class="sb-groep">
+              <a class="sb-hoofd" href={`#${h.id}`} data-id={h.id}>{h.titel}</a>
+              {h.artikelen.map((a) => (
+                <a class="sb-art" href={`#${a.id}`} data-id={a.id}>
+                  {a.nr && <span class="sb-nr">{a.nr}</span>}
+                  <span>{a.titel}</span>
+                </a>
+              ))}
+            </div>
           ))}
         </aside>
 
@@ -44,12 +53,11 @@ const telling = alleArtikelen.length;
           {telling > 0 && (
             <div class="toolbar">
               <input class="search" id="zoek" type="search" placeholder={`Zoek in ${telling} artikelen…`} autocomplete="off" />
-              {categorieen.length > 0 && (
-                <div class="chips" id="chips">
-                  <button class="chip on" data-filter="alle">Alles</button>
-                  {categorieen.map((c) => <button class="chip" data-filter={`cat:${c}`}>Categorie {c}</button>)}
-                </div>
-              )}
+              <div class="chips" id="chips">
+                {categorieen.length > 0 && <button class="chip on" data-filter="alle">Alles</button>}
+                {categorieen.map((c) => <button class="chip" data-filter={`cat:${c}`}>Categorie {c}</button>)}
+                <button class="chip toggle" id="alles-open" type="button">Alles openklappen</button>
+              </div>
             </div>
           )}
 
@@ -58,18 +66,16 @@ const telling = alleArtikelen.length;
               <h2>{h.titel}</h2>
               {h.introHtml && <div class="prose intro" set:html={h.introHtml} />}
               {h.artikelen.map((a) => (
-                <article class="artikel" id={a.id} data-cat={a.catNr ?? ''} data-tekst={a.tekst}>
-                  <header>
+                <details class="artikel" id={a.id} data-cat={a.straffen.map((s) => s.nr).filter(Boolean).join(' ')} data-tekst={a.tekst}>
+                  <summary>
                     {a.nr && <span class="nr">{a.nr}</span>}
                     <h3>{a.titel}</h3>
-                    {a.categorie && (
-                      <span class={`badge straf ${Number(a.catNr) <= 3 ? 'laag' : Number(a.catNr) <= 6 ? 'midden' : 'hoog'}`}>
-                        {a.categorie}
-                      </span>
-                    )}
-                  </header>
+                    {a.straffen.map((s) => (
+                      <span class={`badge straf ${catKleur(s.nr)}`}>{s.label}</span>
+                    ))}
+                  </summary>
                   <div class="prose" set:html={a.html} />
-                </article>
+                </details>
               ))}
             </section>
           ))}
@@ -82,27 +88,37 @@ const telling = alleArtikelen.length;
 
   <script>
     const zoek = document.getElementById('zoek') as HTMLInputElement | null;
-    const chips = document.querySelectorAll<HTMLButtonElement>('.chip');
-    const artikelen = document.querySelectorAll<HTMLElement>('.artikel');
+    const chips = document.querySelectorAll<HTMLButtonElement>('.chip[data-filter]');
+    const artikelen = document.querySelectorAll<HTMLDetailsElement>('details.artikel');
     const hoofdstukken = document.querySelectorAll<HTMLElement>('.hoofdstuk');
+    const sidebar = document.getElementById('sidebar');
     const geen = document.getElementById('geen');
+    const openKnop = document.getElementById('alles-open');
     let filter = 'alle';
+
+    const sbLink = (id: string) => sidebar?.querySelector<HTMLElement>(`a[data-id="${CSS.escape(id)}"]`) ?? null;
 
     function toepassen() {
       const q = (zoek?.value ?? '').trim().toLowerCase();
       let zichtbaar = 0;
       artikelen.forEach((el) => {
         const okTekst = !q || (el.dataset.tekst ?? '').includes(q);
-        const okFilter = !filter.startsWith('cat:') || el.dataset.cat === filter.slice(4);
+        const okFilter = !filter.startsWith('cat:') || (el.dataset.cat ?? '').split(' ').includes(filter.slice(4));
         const toon = okTekst && okFilter;
         el.classList.toggle('hidden', !toon);
-        if (toon) zichtbaar++;
+        sbLink(el.id)?.classList.toggle('hidden', !toon);
+        if (toon) {
+          zichtbaar++;
+          if (q) el.open = true;
+        }
       });
       const filtert = q !== '' || filter !== 'alle';
       hoofdstukken.forEach((h) => {
-        const heeft = h.querySelectorAll('.artikel:not(.hidden)').length > 0;
-        const heeftArtikelen = h.querySelectorAll('.artikel').length > 0;
-        h.classList.toggle('hidden', filtert && heeftArtikelen && !heeft);
+        const heeft = h.querySelectorAll('details.artikel:not(.hidden)').length > 0;
+        const heeftArtikelen = h.querySelectorAll('details.artikel').length > 0;
+        const verberg = filtert && heeftArtikelen && !heeft;
+        h.classList.toggle('hidden', verberg);
+        sbLink(h.id)?.classList.toggle('hidden', verberg);
       });
       geen?.classList.toggle('hidden', zichtbaar > 0 || !filtert);
     }
@@ -117,18 +133,47 @@ const telling = alleArtikelen.length;
       }),
     );
 
-    // Actief hoofdstuk in de zijbalk markeren tijdens het scrollen
-    const links = document.querySelectorAll<HTMLAnchorElement>('.sidebar a');
+    // Alles openklappen / dichtklappen
+    openKnop?.addEventListener('click', () => {
+      const nuOpen = openKnop.dataset.open !== '1';
+      artikelen.forEach((el) => { if (!el.classList.contains('hidden')) el.open = nuOpen; });
+      openKnop.dataset.open = nuOpen ? '1' : '0';
+      openKnop.textContent = nuOpen ? 'Alles dichtklappen' : 'Alles openklappen';
+    });
+
+    // Link naar een artikel (zijbalk of adres): klap dat artikel open
+    function naarHash() {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (!id) return;
+      const el = document.getElementById(id);
+      if (el instanceof HTMLDetailsElement) {
+        el.open = true;
+        requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
+      }
+    }
+    window.addEventListener('hashchange', naarHash);
+    naarHash();
+
+    // Actief onderdeel in de zijbalk markeren tijdens het scrollen
+    let actief: HTMLElement | null = null;
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
-          if (e.isIntersecting) {
-            links.forEach((l) => l.classList.toggle('active', l.dataset.hoofdstuk === e.target.id));
+          if (!e.isIntersecting) return;
+          const link = sbLink(e.target.id);
+          if (!link || !sidebar) return;
+          actief?.classList.remove('active');
+          link.classList.add('active');
+          actief = link;
+          const bovenkant = link.offsetTop - sidebar.clientHeight / 3;
+          if (link.offsetTop < sidebar.scrollTop || link.offsetTop > sidebar.scrollTop + sidebar.clientHeight - 60) {
+            sidebar.scrollTo({ top: bovenkant });
           }
         });
       },
-      { rootMargin: '-90px 0px -70% 0px' },
+      { rootMargin: '-90px 0px -75% 0px' },
     );
+    artikelen.forEach((a) => obs.observe(a));
     hoofdstukken.forEach((h) => obs.observe(h));
   </script>
 </Base>
