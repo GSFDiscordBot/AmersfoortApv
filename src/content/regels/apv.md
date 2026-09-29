@@ -4,9 +4,9 @@
 
 | | |
 |---|---|
-| Organisatie      | Hoge Raad Amersfoort |
+| Organisatie      | Beheer / Bestuur Amersfoort |
 | Officiële naam regeling   | Algemene Plaatselijke Verordening Amersfoort|
-| Vastgesteld door          | Hoge Raad Amersfoort |
+| Vastgesteld door          | Beheer / Bestuur Amersfoort |
 
 !!! attention "LET OP"
     De onderstaande categorieën zijn richtlijnen, een staflid kan ten allen tijden een andere straf bepalen.
@@ -97,7 +97,7 @@
 1. Hij/zij die gebruik maakt van software/hulpmiddelen (cheats) van derde partijen om profijt te krijgen in het eigen spel of die van een ander:
 2. Enkele voorbeelden hiervan zijn onder andere een crosshair, Flawless Widescreen, cheats en stretch. Het is alleen toegestaan om te spelen met de aspect ratio op Auto & 16:10.
 3. Deze regel geldt ook voor de Discord cliënt zelf, dus gebruik van clients als Better Discord is niet toegestaan.
-4. De hoge raad kan na het zien van eventueel beeldmateriaal een stemmingsronde houden om te beslissen of iemand gebruikt heeft gemaakt van software/hulpmiddelen (cheats) van derde partijen.
+4. Beheer / Bestuur kan na het zien van eventueel beeldmateriaal een stemmingsronde houden om te beslissen of iemand gebruikt heeft gemaakt van software/hulpmiddelen (cheats) van derde partijen.
 5. Combatpacks zijn niet toegestaan, bijvoorbeeld minder bosjes of andere zaken die in het voordeel zijn van de speler.
 6. Het is niet toegestaan om cheats op jou pc te hebben staan in welke form dan ook.
 
@@ -185,7 +185,7 @@
 7. Hij/zij die tijdens een roleplay scenario uitlogt of dood gaat met een wapen en de stad verlaat zal de helft van de wapens worden ingenomen.
 
    **| Straf | Categorie 6 |**
-|---|---|Op basis van het aantal waarschuwingen dat je hebt en je gedrag binnen de stad, wordt bepaald hoeveel wapens er per combatlog worden ingenomen, dit zal worden besloten door Hoge Raad+
+|---|---|Op basis van het aantal waarschuwingen dat je hebt en je gedrag binnen de stad, wordt bepaald hoeveel wapens er per combatlog worden ingenomen, dit zal worden besloten door Beheer / Bestuur
 
 
 ### Artikel 9.2 - Combat-stashen
