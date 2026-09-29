@@ -165,9 +165,7 @@ tr:last-child td { border-bottom: none; }
 
 /* Straffen en boetes als ronde badges */
 .badge.straf { font-size: .82rem; padding: 4px 12px; }
-.badge.straf.laag { color: var(--licht); border-color: rgba(61,220,151,.45); background: rgba(61,220,151,.08); }
-.badge.straf.midden { color: var(--middel); border-color: rgba(255,179,71,.45); background: rgba(255,179,71,.08); }
-.badge.straf.hoog { color: var(--zwaar); border-color: rgba(255,93,108,.45); background: rgba(255,93,108,.08); }
+.badge.straf { color: var(--blue-2); border-color: rgba(46,168,255,.5); background: rgba(46,168,255,.12); }
 .pilltabel { margin: 0 0 1em; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--bg-2); }
 .pt-titel { padding: 8px 14px; font-family: var(--font-head); letter-spacing: .06em; text-transform: uppercase; font-size: .85rem; color: var(--blue-2); border-bottom: 1px solid var(--line); }
 .pt-rij { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
@@ -206,9 +204,8 @@ details.artikel[open] { border-color: rgba(46,168,255,.4); }
 .cat-tegel { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg-2); }
 .cat-nr { font-family: var(--font-head); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: .95rem; }
 .cat-tekst { color: var(--body-text, #c7d6f2); font-size: .9rem; }
-.cat-tegel.c-laag { border-color: rgba(61,220,151,.45); } .c-laag .cat-nr { color: var(--licht); }
-.cat-tegel.c-midden { border-color: rgba(255,179,71,.45); } .c-midden .cat-nr { color: var(--middel); }
-.cat-tegel.c-hoog { border-color: rgba(255,93,108,.45); } .c-hoog .cat-nr { color: var(--zwaar); }
+.cat-tegel { border-color: rgba(46,168,255,.35); }
+.cat-nr { color: var(--blue-2); }
 
 /* Tabellen als rijen met badge */
 .pt-rij.tekst { align-items: flex-start; justify-content: flex-start; flex-wrap: nowrap; gap: 14px; }

@@ -19,7 +19,6 @@ const categorieen = [
   ...new Set(alleArtikelen.flatMap((a) => a.straffen.map((s) => s.nr)).filter(Boolean)),
 ].sort((a, b) => Number(a) - Number(b)) as string[];
 const telling = alleArtikelen.length;
-const catKleur = (n?: string) => (Number(n) <= 3 ? 'laag' : Number(n) <= 6 ? 'midden' : 'hoog');
 ---
 
 <Base title={set.lang} description={set.beschrijving} active={set.slug}>
@@ -71,7 +70,7 @@ const catKleur = (n?: string) => (Number(n) <= 3 ? 'laag' : Number(n) <= 6 ? 'mi
                     {a.nr && <span class="nr">{a.nr}</span>}
                     <h3>{a.titel}</h3>
                     {a.straffen.map((s) => (
-                      <span class={`badge straf ${catKleur(s.nr)}`}>{s.label}</span>
+                      <span class="badge straf">{s.label}</span>
                     ))}
                   </summary>
                   <div class="prose" set:html={a.html} />
