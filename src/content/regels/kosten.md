@@ -4,15 +4,15 @@ De ANWB hanteert de volgende prijzen voor de diensten die zij leveren.
 
 ### Categorieën
 
-Bij de anwb worden verschillende categorieën gehanteerd hieronder zijn deze te vinden.
+Bij de ANWB worden verschillende categorieën gehanteerd. Hieronder zijn deze te vinden.
 
 |Categorie| omschrijving |
 |:-------:|------------|
 | Categorie 1 | Lakschade, Wagen kan niet meer getuned worden, oranje motorlampje |
-| Categorie 2 | koplamp(en) en of achterlamp(en) stuk, kleine deuken, Eén of twee ramen kapot, Eén lekke band.|
+| Categorie 2 | koplamp(en) en/of achterlamp(en) stuk, kleine deuken, Eén of twee ramen kapot, Eén lekke band.|
 | Categorie 3 | Grote deuken, Meer dan twee ramen kapot, meerdere banden lek, twee deuren weg, motorkap/kofferklep weg|
 | Categorie 4 | Meer dan twee deuren weg, vervorming van het frame, Rood motorlampje |
-| Categorie 5 | De auto rijd maar rookt hevig, zwaar beschadigd (alle deuren en motorkap en kofferklep zijn van voertuig) |
+| Categorie 5 | De auto rijdt maar rookt hevig, zwaar beschadigd (alle deuren en motorkap en kofferklep zijn van voertuig) |
 | Categorie 6 | De auto is total loss (shift + e om de wagen te duwen)|
 
 ### Motor
@@ -60,16 +60,16 @@ Bij de anwb worden verschillende categorieën gehanteerd hieronder zijn deze te 
 | Categorie | Prijs | 
 |:---------:|:-----------:|
 | Abonnement | € 250,- |
-- Wegslepen, Voorrijkosten Of Bijtanken moeten hier wel nog boven op in rekening gebracht worden
+- Wegslepen, voorrijkosten of bijtanken moeten hier nog bovenop in rekening worden gebracht.
 
 !!! attention "LET OP"
-    De prijzen kunnen te allen tijde worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden gewijzigd
 
 
 ## Advocatuur
 
 Heeft u juridische bijstand nodig, dan kan de advocatuur van Amersfoort u helpen.
-Contracten opstellen, juridische vragen, en bijstand tijdens een verhoor.. de advocatuur is er om uw recht te verdedigen.
+Contracten opstellen, juridische vragen, en bijstand tijdens een verhoor. De advocatuur is er om uw recht te verdedigen.
 
 Kosten voor de advocatuur zijn afhankelijk van een aantal factoren.
 
@@ -96,16 +96,16 @@ Elk half uur is € 2500,-
 |etc. |  |
 
 !!! attention "LET OP"
-    De prijzen kunnen te allen tijde worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden gewijzigd
 
 
 ## Politie
 
-De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden worden gewijzigd
+De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden gewijzigd.
 
-### Verkeers misdrijf
+### Verkeersmisdrijf
 
-|Feit|Boete bedrag|
+|Feit|Boetebedrag|
 |:---|:----:|
 | Rijden met rijontzegging 1e keer | € 4000,- |
 | Zonder rijbewijs rijden | € 4000,- |
@@ -146,13 +146,13 @@ De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden
 | Joyriding | € 1700,- |
 | Rijden onder invloed | € 4000,- |
 | Illegaal off road rijden | € 420,- |
-| Door rijden bij een stop bord | € 420,- |
+| Doorrijden bij een stopbord | € 420,- |
 | Illegaal inhalen over een vluchtstrook | € 1140,- |
 | U-turn | € 420,- |
 | Over een doorgetrokken streep rijden | € 480,- |
 | Onnodig linksrijden | € 420,- |
 | Spookrijden | € 1860,- |
-| Stil staan met je auto waar dat niet mag | € 420,- |
+| Stilstaan met je auto waar dat niet mag | € 420,- |
 | Hinder zonder ongeval | € 3000,- |
 | Verkeersongeval met licht lichamelijk letsel | € 4000,- |
 | Verkeersongeval met zwaar lichamelijk letsel | € 10000,- |
@@ -166,7 +166,7 @@ De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden
 | Verkeersovertreding niet nader gespecificeerd | € 430,- |
 | Rijden zonder kentekenplaten | € 10000,- |
 | Geblindeerde ramen | € 7500,- |
-| Verlichting(NEON) onder het voertuig | € 2500 |
+| Verlichting (neon) onder het voertuig | € 2500,- |
 | Opzettelijk veroorzaken van ernstig gevaar of hinder - eerste veroordeling | € 3000,- |
 | Opzettelijk veroorzaken van ernstig gevaar of hinder - tweede veroordeling | € 7500,- |
 | Opzettelijk veroorzaken van ernstig gevaar of hinder - meerdere veroordelingen | € 10500,- |
@@ -174,17 +174,17 @@ De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden
 
 ### Klein misdrijf
 
-|Feit|Boete bedrag|
+|Feit|Boetebedrag|
 |:---|:---:|
 | Openbare dronkenschap | € 120,- |
 | Rechtsdoorgang beletten | € 130,- |
-| Onbevoegd begeven op privé terrein | € 180,- |
+| Onbevoegd begeven op privéterrein | € 180,- |
 | Dragen van gezichtsbedekkende kledij | € 200,- |
 | Beledigen van een ambtenaar in functie | € 1600,- |
 | Verstoring Openbare orde | € 220,- |
 | Valse informatie geven | € 250,- |
 | Valse melding | € 450,- |
-| In het bezit zijn van inbrekers gereedschap | € 2500,- |
+| In het bezit zijn van inbrekersgereedschap | € 2500,- |
 | Poging tot diefstal | € 1400,- |
 | Diefstal | € 2000,- |
 | Poging tot omkopen | € 1500,- |
@@ -197,7 +197,7 @@ De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden
 
 ### Middelmatig misdrijf
 
-|Feit|Boete bedrag|
+|Feit|Boetebedrag|
 |:---|:---:|
 | Bedreiging | € 3000,- |
 | Bedreiging overheidsmedewerker | € 4000,- |
@@ -225,14 +225,14 @@ De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden
 | Gekwalificeerde Diefstal meerdere veroordelingen | € 15000,- |
 | Diefstal met geweld eerste veroordeling | € 2000,- |
 | Diefstal met geweld tweede veroordeling | € 4000,- |
-| Diefstal met geweld meerdere veroordelingen | € 6000,- ||
+| Diefstal met geweld meerdere veroordelingen | € 6000,- |
 | Misdrijven tegen de openbare orde eerste Veroordeling | € 2500,-  |
 | Misdrijven tegen de openbare orde tweede Veroordeling | € 5000,-  |
 | Misdrijven tegen de openbare orde meerdere Veroordelingen | € 10000,-  |
 
 ### Grootmisdrijf
 
-|Feit|Boete bedrag|
+|Feit|Boetebedrag|
 |:--|:---:|
 | Eenvoudige mishandeling | € 5000,- |
 | Zware mishandeling | € 10000,- |
@@ -263,10 +263,10 @@ De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden
 | Zonder Vliegbrevet vliegen | € 75000,- |
 
 !!! attention "LET OP"
-    De prijzen kunnen te allen tijde worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden gewijzigd
 
 !!! attention "LET OP"
-    De prijzen kunnen achterlopen met wat er in het wetboek staat beschreven. Kijk voor de actuele prijzen [hier](https://amersfoortrp.github.io/apv/wetboek/)
+    De prijzen kunnen achterlopen met wat er in het wetboek staat beschreven. Kijk voor de actuele prijzen [hier](../wetboek/)
 
 
 ## Vliegschool
@@ -281,4 +281,4 @@ De Vliegschool hanteert de volgende prijzen voor de verschillende opleidingen en
 |Aantekening stuntvliegen | € 20000,- |
 
 !!! attention "LET OP"
-    De prijzen kunnen te allen tijde worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden gewijzigd

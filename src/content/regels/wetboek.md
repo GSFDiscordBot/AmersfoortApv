@@ -14,16 +14,16 @@
 ### A1 - Reikwijdte
 
 1. Het Wetboek Amersfoort (WAFR) is leidend voor alle beschreven gevallen waarbij als aanvulling het Nederlands Recht van toepassing is.
-2. het WAFR heeft betrekking op het vasteland, het luchtruim en de wateren.
+2. Het WAFR heeft betrekking op het vasteland, het luchtruim en de wateren.
 
 ### A2 - Geldigheid
-1. Bij verandering van een wetgeving na het tijdstip waarop het feit begaan is, wordt voor de verdachte de meest gunstigste bepalingen toegepast.
+1. Bij verandering van een wetgeving na het tijdstip waarop het feit begaan is, worden voor de verdachte de gunstigste bepalingen toegepast.
 2. Het is voor een staff-lid niet toegestaan om mee te beslissen over een zaak die over hunzelf, vrienden en/of familie gaat. Dit om te versterken dat een zaak op een eerlijke en rechtvaardige manier behandeld wordt.
 
 ### A3 - Verjaring van het strafbaar feit
 1. Het recht tot strafvordering vervalt door verjaring:
-	- Voor misdrijven waar een totale strafeis tussen de 1 en 50 bedroeg, verjaren deze feiten na 10 dagen:
-	- Voor misdrijven waar de totale strafeis tussen de 51 en 80 maanden maanden bedroeg, verjaren deze feiten na 15 dagen;
+	- Voor misdrijven waar een totale strafeis tussen de 1 en 50 maanden bedroeg, verjaren deze feiten na 10 dagen;
+	- Voor misdrijven waar de totale strafeis tussen de 51 en 80 maanden bedroeg, verjaren deze feiten na 15 dagen;
 	- Voor misdrijven waar de totale strafeis tussen de 81 en 100 maanden bedroeg, verjaren deze feiten na 30 dagen;
 	- Voor misdrijven waar de totale strafeis meer dan 100 maanden bedroeg, verjaren deze feiten na 45 dagen;
 
@@ -38,17 +38,17 @@
 	* Taakstraffen
 	* Celstraffen
 2. Straffen kunnen gecombineerd worden.
-3. Straffen kunnen nooit hoger dan de aangegeven waarden.
+3. Straffen kunnen nooit hoger zijn dan de aangegeven waarden.
 4. Bij medeplichtigheid wordt de totale straf gehalveerd.
-5. Bij poging tot wordt de totale straf gehalveerd.
-6. Er geldt een maximum celstraf van 400 maanden, Als er volgens het wetboek meer dan 400 maanden moet worden opgelegd wordt de boete verhoogt met 500 euro per extra maand.
+5. Bij een poging tot een strafbaar feit wordt de totale straf gehalveerd.
+6. Er geldt een maximum celstraf van 400 maanden. Als er volgens het wetboek meer dan 400 maanden moet worden opgelegd, wordt de boete verhoogd met 500 euro per extra maand.
 7. Een straf kan verlaagd worden door verzachtende omstandigheden.
 8. Een straf kan geheel of gedeeltelijk kwijtgescholden worden op basis van uitsluitingsgronden.
 9. Een VH Feit is een misdrijf waar 30 maanden of meer opstaan. 
 
 ### A5 - Strafblad
 
-1. Straffen die enig celstraf bevat kunnen leiden tot een strafblad.
+1. Straffen die een celstraf bevatten, kunnen leiden tot een strafblad.
 2. Een strafblad blijft staan tot een periode van 1 maand (Real Life).
 3. Bij een nieuwe overtreding / misdrijf wordt de resterende tijd van een strafblad gereset naar de datum van de laatst opgelegde celstraf.
 
@@ -76,36 +76,36 @@
 
 ### A8 - Boetes
 
-1. Wanneer er bij controle / aanhouding wordt geconstateerd dat er een totaalbedrag van boven de € 10.000,- aan boetes openstaan kan een persoon hiervoor worden aangehouden en gedwongen worden te betalen tot het totaalbedrag onder de € 10.000,- komt.
-2. Wanneer er niet betaald kan worden zal hier een taakstraf op staan en zal de boete verhoogt worden en krijgt de persoon 1 week het totaalbedrag onder de € 10.000,- te krijgen.
+1. Wanneer er bij controle / aanhouding wordt geconstateerd dat er een totaalbedrag van boven de € 10.000,- aan boetes openstaat, kan een persoon hiervoor worden aangehouden en gedwongen worden te betalen tot het totaalbedrag onder de € 10.000,- komt.
+2. Wanneer er niet betaald kan worden zal hier een taakstraf op staan en zal de boete verhoogd worden en krijgt de persoon 1 week de tijd om het totaalbedrag onder de € 10.000,- te krijgen.
 
 ### A9 - Rechtsbijstand
 
 1. Een persoon is voorafgaand aan een politieverhoor toegestaan rechtsbijstand te ontvangen van een officiële advocaat.
 2. Er worden alleen advocaten geaccepteerd die gecertificeerd en hiervoor bevoegd zijn.
-3. Indien de persoon gebruik wilt maken van een advocaat is de politie verplicht tot het oproepen van een advocaat.
+3. Indien de persoon gebruik wil maken van een advocaat is de politie verplicht tot het oproepen van een advocaat.
 4. Indien er na 10 minuten van de oproep geen antwoord is gegeven door een advocaat, zal de vervolging verder gaan zonder strafvermindering.
 5. Indien er geen advocaat beschikbaar is, zal de persoon een strafvermindering van 10% krijgen.
 
 ### A10 - Rechten
 
-1. Indien een persoon is aangehouden voor een feit met een taakstraf of celstraf er aan gebonden, dient de persoon op de hoogte gebracht te zijn van zijn primaire rechten.
+1. Indien een persoon is aangehouden voor een feit waar een taakstraf of celstraf aan is verbonden, dient de persoon op de hoogte te worden gebracht van zijn primaire rechten.
 2. De primaire rechten zijn:
     - Recht op rechtsbijstand
     - Recht op zwijgen
 3. De primaire rechten van de persoon moeten zijn voorgelezen voordat hij in de cel geplaatst wordt.
 4. Indien het benoemde in lid 3 niet mogelijk was door omstandigheden, kan dit nog gebeuren voor het eerste verhoor.
-5. Enkel van deze omstandigheden zijn:
+5. Alleen de volgende omstandigheden tellen:
     - Spraak werkt niet
     - Persoon blijft herhaaldelijk schreeuwen of het gesprek verstoren
     - Persoon is vlakbij het cellencomplex aangehouden
-6. Als de aangehouden persoon zijn primaire rechten niet voorgelezen heeft gekregen en er geen omstandigheden waren zoals genoemd in lid 5, zal de persoon strafvermindering krijgen in overleg met de hOvJ/OvJ/HOvJ of bestuursleden van de politie of marrechaussee. Indien geen van deze beschikbaar zijn zal de persoon een strafvermindering krijgen van 25%.
+6. Als de aangehouden persoon zijn primaire rechten niet voorgelezen heeft gekregen en er geen omstandigheden waren zoals genoemd in lid 5, zal de persoon strafvermindering krijgen in overleg met de hOvJ/OvJ/HOvJ of bestuursleden van de politie of marechaussee. Indien geen van deze beschikbaar is, zal de persoon een strafvermindering krijgen van 25%.
 
 ## Titel I - Vermogensdelicten
 
 ### Artikel I-1 Diefstal (310 SR)
 
-1. Een persoon die een goed / voertuig wegneemt zonder enig toestemming of recht ertoe te hebben.
+1. Een persoon die een goed / voertuig wegneemt zonder enige toestemming of recht ertoe te hebben.
 
 |   | *Celstraf* |  | *Boete* |
 |---|---|---|---|
@@ -114,7 +114,7 @@
 
 ### Artikel I-2 Overval (Diefstal met geweld) (312 SR)
 
-1.Een persoon die een goed / voertuig wegneemt zonder enig toestemming of recht ertoe te hebben en daarbij enig geweld te hebben gebruikt.
+1. Een persoon die een goed / voertuig wegneemt zonder enige toestemming of recht ertoe te hebben en daarbij enig geweld heeft gebruikt.
 2. Genoemd geweld is gebruikt bij de voorbereiding, diefstal of overval, of vlucht.
 
 |   | *Celstraf* |  | *Boete* |
@@ -145,8 +145,8 @@
 
 1. Wanneer er tijdens aanhouding van een persoon door Politie een geldbedrag, hoger dan € 20000,- aan contanten aangetroffen wordt bij die persoon, zal er om geldige verklaring van herkomst gevraagd worden.
 2. Wanneer deze verklaring niet bewijsbaar of redelijkerwijs aannemelijk is, dan mag dit bedrag in beslag worden genomen voor onderzoek.
-3. Wanneer uit onderzoek blijkt, volgend op de inbeslagname zoals bedoeld in lid 2, geen criminele herkomst kan aantonen, dan wordt het bedrag teruggegeven.
-4. Wanneer uit onderzoek blijkt, volgend op de inbeslagname zoals bedoeld in lid 2, criminele herkomst aantoont, dan zal de in beslag genomen som vernietigd worden.
+3. Wanneer uit onderzoek na de inbeslagname (zie lid 2) blijkt dat er geen criminele herkomst is aan te tonen, dan wordt het bedrag teruggegeven.
+4. Wanneer uit onderzoek na de inbeslagname (zie lid 2) een criminele herkomst blijkt, dan zal de in beslag genomen som vernietigd worden.
 
 
 ## Titel II - Geweldsdelicten
@@ -193,7 +193,7 @@
 
 ### Artikel II-5 Moord (289 SR)
 
-1.Schuldig is een persoon die opzettelijk met voorbedachte rade een ander van het leven berooft.
+1. Schuldig is een persoon die opzettelijk met voorbedachte rade een ander van het leven berooft.
 2. Wanneer het slachtoffer een ambtenaar in functie betreft wordt de straf met 50% verhoogd.
 
 |   | *Celstraf*  | *Boete*  |
@@ -203,7 +203,7 @@
 
 ### Artikel II-6 Mishandeling (300 SR)
 
-1. Schuldig is een persoon die opzettelijk en wederrechtelijk een ander mishandeld
+1. Schuldig is een persoon die opzettelijk en wederrechtelijk een ander mishandelt.
 2. Wanneer het slachtoffer een ambtenaar in functie betreft wordt de straf met 33% verhoogd.
 
 |   | *Celstraf* | *Boete* |
@@ -213,11 +213,11 @@
 
 ### Artikel II-7 Zware mishandeling (302 SR)
 
-1. Schuldig is een persoon die opzettelijk en wederrechtelijk een ander mishandeld met zwaar lichamelijk, dan wel geestelijk letsel tot gevolg.
+1. Schuldig is een persoon die opzettelijk en wederrechtelijk een ander mishandelt met zwaar lichamelijk, dan wel geestelijk letsel tot gevolg.
 2. Met mishandeling wordt gelijkgesteld het opzettelijk benadelen van de gezondheid.
 3. Wanneer het slachtoffer een ambtenaar in functie betreft wordt de straf met 33% verhoogd.
 4. Bij een poging tot zware mishandeling wordt de straf met 33% verminderd.
-5. 
+
 |   | *Celstraf*  |  | *Boete*  |
 |---|---|---|---|
 |  **Eerste Veroordeling** | 10 Maanden |  | € 5500,- |
@@ -234,7 +234,7 @@
 |---|---|---|---|
 | **Eerste Veroordeling** |  |  | € 4500,- |
 | **Tweede Veroordeling** |  |  | € 5500,- |
-| **meerdere Veroordelingen** |  |  | € 8000,- |
+| **Meerdere Veroordelingen** |  |  | € 8000,- |
 
 ### Artikel II-9 Dood door schuld (307 SR)
 
@@ -272,7 +272,7 @@
 
 ### Artikel III-2 Opzettelijk veroorzaken van ernstig gevaar of hinder (5a WvW)
 
-1. Het is verboden opzettelijk zich zodanig in het verkeer te gedragen dat de verkeersregels ernstige worden geschonden, indien daarvan levensgevaar of gevaar voor zwaar lichamelijk letsel voor een ander te duchten is.
+1. Het is verboden om zich opzettelijk zo in het verkeer te gedragen dat de verkeersregels ernstig worden geschonden en levensgevaar of gevaar voor zwaar lichamelijk letsel voor een ander te duchten is.
 2. Hieronder vallen:
 	* Gevaarlijk inhalen
 	* Over een vluchtstrook rijden waar dit niet is toegestaan
@@ -309,19 +309,19 @@
 
 ### Artikel III-5 Fout parkeren (25 RVV 1990)
 
-1. Schuldig is een persoon die zijn of haar voertuig parkeert op een wijze die niet sluit met de aangegeven parkeersituatie, zoals:
+1. Schuldig is een persoon die zijn of haar voertuig parkeert op een wijze die niet past bij de aangegeven parkeersituatie, zoals:
     1. dubbelparkeren
     2. Doorkruisen van parkeervakken 
     3. Parkeren op de stoep
-    4. Parkeren op een plaats dat bestemd is voor dienstvoertuigen
-    5. Parkeren langs weg met doorgetrokken getrokken streep op stoeprand 
+    4. Parkeren op een plaats die bestemd is voor dienstvoertuigen
+    5. Parkeren langs de weg met een doorgetrokken streep op de stoeprand 
 2. De vastgestelde boete voor bovenstaande acties is € 1750,-
 
 ### Artikel III-6 Snelheidsovertredingen
 
 1. Schuldig is een persoon die de wettelijk bepaalde snelheden voor verkeer niet in acht neemt tijdens deelname aan het verkeer.
 2. De toegestane snelheden zijn 80KM/h en 120KM/h op de snelweg.
-3. Indien een agent een overtredende partij staande houdt, is hij of zij gerechtigd tot het uitschrijven een boete.
+3. Indien een agent een overtredende partij staande houdt, is hij of zij gerechtigd tot het uitschrijven van een boete.
 4. Bij metingen geldt een correctie van 5KM/h.
 
 
@@ -348,7 +348,7 @@
 ### Artikel III-7 Overige Verkeersfeiten
 
 1. Een volledig overzicht van alle boetes is te vinden in het feiten kopje.
-2. Onderstaande strafbare feiten kunnen bestraft worden met een boete, als zoals:
+2. Onderstaande strafbare feiten kunnen bestraft worden met een boete, zoals:
 
 |  *Feit* | *Boete*  |
 |---|---|
@@ -367,7 +367,7 @@
 ### Artikel IV-1 Harddrugs (2 OW)
 1. Schuldig is een persoon die harddrugs gebruikt, in bezit heeft, of verkoopt.
 2. Schuldig is ook een persoon die de ingrediënten, benodigd voor het vervaardigen van harddrugs in bezit heeft, of verkoopt.
-3. Strafbepaling geschiedt op grond van de totale hoeveelheid die aangetroffen is
+3. Strafbepaling geschiedt op grond van de totale hoeveelheid die aangetroffen is.
 
 #### Rekentabel Harddrugs: ingrediënten
 
@@ -377,7 +377,7 @@
 | **26-200 ingrediënten**  | 10 maanden  |   | € 7500,-  |
 | **201-250 ingrediënten**  | 20 maanden  |   | € 10000,-  |
 | **251-500 ingrediënten**  | 30 maanden  |   | € 15000,-  |
-| **500-1000 ingrediënten**  | 40 maanden  |   | € 20000,-  |
+| **501-1000 ingrediënten**  | 40 maanden  |   | € 20000,-  |
 | **1000+ ingrediënten**  | 50 maanden  |   | € 35000,-  |
 
 #### Rekentabel Harddrugs: eindproducten
@@ -441,8 +441,8 @@
 ### Artikel V-2 Vuurwapens en Explosieven (26 WWM)
 
 1. Strafbaar is een persoon die een vuurwapen voorhanden heeft, bij zich heeft of opgeslagen in zijn / haar huis of voertuig heeft.
-2. Categorie 1 betreft: Kleine vuurwapens(pistolen, revolvers, etc)
-3. Categorie 2 betreft: Automatische vuurwapens, Skorpion, micro SMG, , jachtgeweren, shotguns, explosieven, granaten, thermiet, etc.
+2. Categorie 1 betreft: Kleine vuurwapens (pistolen, revolvers, etc.)
+3. Categorie 2 betreft: Automatische vuurwapens, Skorpion, micro SMG, jachtgeweren, shotguns, explosieven, granaten, thermiet, etc.
 
 
 | ***`Categorie 1`*** | *Celstraf* |  | *Boete*  |
@@ -458,7 +458,7 @@
 ### Artikel V-3 Wapenhandel (14-20 WWM)
 
 1. Strafbaar is een persoon die wapens doorvoert zonder hiervoor een geldig consent te hebben.
-2. Indien een wapen transactie aantoonbaar gepleegd zou gaan worden, of dreigde te gaan worden maar dit niet is afgerond, wordt dit aangemerkt als poging tot.
+2. Indien een wapentransactie aantoonbaar gepleegd zou gaan worden, of dreigde te gaan gebeuren, maar niet is afgerond, wordt dit aangemerkt als een poging tot een strafbaar feit.
 
 |   | *Celstraf*  |  | *Boete*  |
 |---|---|---|---|
@@ -469,7 +469,7 @@
 
 1. Strafbaar is een persoon die munitie voorhanden heeft.
 2. Voor elke clip wordt de straf met 25% verhoogd
-3. Categorie 1 munitie betreft: Munitie van Kleine vuurwapens(pistolen, revolvers, etc)
+3. Categorie 1 munitie betreft: Munitie van kleine vuurwapens (pistolen, revolvers, etc.)
 4. Categorie 2 munitie betreft: Munitie van Automatische vuurwapens, jachtgeweren, shotguns, explosieven, granaten, thermiet, etc
 
 | ***`Categorie 1 Munitie`*** | *Celstraf* |  | *Boete* |
@@ -496,21 +496,21 @@
 ### Artikel VI-2 Belediging (266 SR)
 
 1. Schuldig is een persoon die opzettelijk een ander beledigt op straffe van een boete van €1200,- per geval.
-2. Wanneer de belediging opzettelijk is geuit richting een ambtenaar in functie wordt de boete met 50% verhoogd. (Art, 267)
+2. Wanneer de belediging opzettelijk is geuit richting een ambtenaar in functie wordt de boete met 50% verhoogd. (art. 267)
 
 |   | *Celstraf* |  | *Boete* |
 |---|---|---|---|
 |  **Veroordeling** |  |  | € 3500,- |
 
-### Artikel V-3 Opgeven valse gegevens (435 SR)
+### Artikel VI-3 Opgeven valse gegevens (435 SR)
 
-1. Schuldig is een persoon die bij vordering van een ambtenaar in functie valse gegevens opgeeft,
+1. Schuldig is een persoon die bij vordering van een ambtenaar in functie valse gegevens opgeeft.
 
 |   | *Celstraf* |  | *Boete* |
 |---|---|---|---|
 |  **Veroordeling** |  |  | € 3000,- |
 
-### Artikel V-4 Niet op eerste vordering tonen van identiteitsbewijs  (447e SR) 
+### Artikel VI-4 Niet op eerste vordering tonen van identiteitsbewijs  (447e SR) 
 
 1. Schuldig is een persoon die geen gehoor geeft aan een vordering tot inzage van het identiteitsbewijs.
 
@@ -555,7 +555,7 @@
 
 1. Hij die in het openbaar, mondeling of bij geschrift of afbeelding, tot enig strafbaar feit of tot gewelddadig optreden tegen het openbaar gezag opruit, wordt gestraft volgens onderstaande tabel. 
 
-|  | *Celstraf* |  | *boete* |
+|  | *Celstraf* |  | *Boete* |
 |---|---|---|---|
 |  Veroordeling |  |  | € 8000,- |
 
@@ -563,7 +563,7 @@
 
 ### Artikel VII-1 Negeren van controle grensinspectiepost (1:1 - 1:31 Algemene Douanewet)
 
-1. Schuldig is een persoon die opzettelijk een grensinspectiepost vermijd / ontwijkt.
+1. Schuldig is een persoon die opzettelijk een grensinspectiepost vermijdt / ontwijkt.
 2. Niet schuldig is een persoon die een grensinspectiepost passeert dan wel ontwijkt of vermijdt terwijl deze op dat moment niet bemand is.
 
 |   | *Celstraf* |  | *Boete* |
@@ -587,13 +587,13 @@
 
 ![Douanegebieden](/img/wetboek/douanegebieden.png)
 
-### Risico gebieden
+### Risicogebieden
 
 ![Kaart](https://user-images.githubusercontent.com/116096149/196766556-c7aee27f-ba5f-4d07-82ca-83e76d087e44.png)
 
 ### No Fly Zone
 
-![Risicogebieden](/img/wetboek/noflyzone.png)
+![No Fly Zone](/img/wetboek/noflyzone.png)
 
 
 ### Artikel VIII-1 Algemene Uitsluitingen (39-43 SR)
@@ -616,11 +616,11 @@
 	
 ### Artikel VIII-3 Wettige bewijsmiddelen (Artikel 338/339 SV)
 
-1. Het bewijs dat de verdachte het telastegelegde feit heeft begaan, kan alleen worden aangenomen, indien de inhoud van wettige bewijsmiddelen de rechter de overtuiging heeft dat de verdachte het telastegelegde feit heeft begaan.
+1. Het bewijs dat de verdachte het tenlastegelegde feit heeft begaan, kan alleen worden aangenomen indien de rechter uit de inhoud van wettige bewijsmiddelen de overtuiging heeft gekregen dat de verdachte het tenlastegelegde feit heeft begaan.
 2. Als wettige bewijsmiddelen worden alleen erkend:
 	1. eigen waarneming van de rechter. Denk hierbij bijvoorbeeld aan foto- en videomateriaal die de rechter op de zitting te zien krijgt.
-	2. verklaringen van de verdachte. Onder verklaring van de verdachte wordt verstaan de bij het onderzoek gedane opgave van feiten of omstandigheden, door verdachte zelf waargenomen of ondervonden. Het bewijs dat de verdachte het telastegelegde feit heeft begaan, kan niet uitsluitend worden aangenomen op de verklaring van verdachte;
-	3. verklaringen van een getuige. Onder verklaring van een getuige wordt verstaan de bij het onderzoek gedane mededeling van feiten of omstandigheden, welke hij zelf waargenomen of ondervonden heeft. Het bewijs dat de verdachte het telastegelegde feit heeft begaan, kan niet uitsluitend worden aangenomen op de verklaring van één getuige;
+	2. verklaringen van de verdachte. Onder verklaring van de verdachte wordt verstaan de bij het onderzoek gedane opgave van feiten of omstandigheden, door verdachte zelf waargenomen of ondervonden. Het bewijs dat de verdachte het tenlastegelegde feit heeft begaan, kan niet uitsluitend worden aangenomen op de verklaring van verdachte;
+	3. verklaringen van een getuige. Onder verklaring van een getuige wordt verstaan de bij het onderzoek gedane mededeling van feiten of omstandigheden, welke hij zelf waargenomen of ondervonden heeft. Het bewijs dat de verdachte het tenlastegelegde feit heeft begaan, kan niet uitsluitend worden aangenomen op de verklaring van één getuige;
 	4. verklaringen van een deskundige. Onder verklaring van een deskundige wordt verstaan de bij het onderzoek afgelegde verklaring en oordeel op basis van zijn wetenschap en kennis;
 	5. schriftelijke stukken;
 	6. (audio)visueel bewijs, zoals bodycambeelden of foto's.
@@ -629,13 +629,13 @@
 	2. verslagen van deskundigen met het antwoord op de opdracht die aan hen is verleend tot het verstrekken van informatie of het doen van onderzoek, gebaseerd op wat hun wetenschap en kennis hen leren omtrent datgene wat aan hun oordeel onderworpen is;
 	3. alle andere geschriften; deze kunnen alleen gelden in verband met de inhoud van andere bewijsmiddelen;
 4. Er geldt een bewijsminimum van één bewijsstuk als het/de strafbare feit(en) volledig en overtuigend bewezen kunnen worden. Indien dit niet het geval is, dan zijn minimaal 2 bewijsstukken vereist. Dit betekent concreet dat de identiteit van de verdacht(en) en de exacte feiten en omstandigheden, bijvoorbeeld of er sprake is van opzet voor zover van toepassing, duidelijk moeten worden.
-5. Het bewijs dat de verdachte het telastegelegde feit heeft gepleegd, kan worden aangenomen op alleen het proces-verbaal van een opsporingsambtenaar.
+5. Het bewijs dat de verdachte het tenlastegelegde feit heeft gepleegd, kan worden aangenomen op alleen het proces-verbaal van een opsporingsambtenaar.
 6. Feiten of omstandigheden van algemene bekendheid behoeven geen bewijs.	
 
 ### Artikel VIII-4 Vormfouten
 
-1. de hoogte van de straf in verhouding tot de ernst van het verzuim, zal worden verlaagd, indien het door het verzuim veroorzaakte nadeel langs deze weg kan worden      gecompenseerd
-2. de resultaten van het onderzoek die door het verzuim zijn verkregen, niet mogen bijdragen aan het bewijs van het telastegelegde feit
+1. de hoogte van de straf in verhouding tot de ernst van het verzuim, zal worden verlaagd, indien het door het verzuim veroorzaakte nadeel langs deze weg kan worden gecompenseerd
+2. de resultaten van het onderzoek die door het verzuim zijn verkregen, niet mogen bijdragen aan het bewijs van het tenlastegelegde feit
 3. de verdachte uitgesloten is van rechtsvervolging
 4. Met onherstelbaar vormverzuim wordt onder andere bedoeld:  
     1. een vooringenomen, sturende, druk uitoefenende manier van verhoren
@@ -663,16 +663,16 @@
 
 ### Artikel Burger-1 (Im)materiële schadevergoeding voor onterechte inverzekeringstelling of voorlopige hechtenis
 
-1. Indien de zaak eindigt zonder oplegging van straf of maatregel of met zodanige oplegging, doch op grond van een feit waarvoor voorlopige hechtenis niet is toegelaten, wordt hem een vergoeding uit de overheid kas toegekend voor de schade welke hij ten gevolge van ondergane inverzekeringstelling of voorlopige hechtenis heeft geleden.
-2. Onder een vergoeding, als bedoeld in het eerste lid vallen o.a. kosten van een advocaat, vergoeding vanwege onterechte detentie/vrijheidsberoving en misgelopen inkomsten vanwege het niet kunnen uitvoeren van persoon zijn werk.
-3. Vergoedingen zoals opgenomen in onderstaande tabel is gebaseerd op onterechte detentie en misgelopen inkomsten van het niet kunnen werken. Vergoeding van de advocaat wordt bepaald aan de hand van de daadwerkelijke kosten van de advocaat.
+1. Indien de zaak eindigt zonder oplegging van straf of maatregel of met zodanige oplegging, doch op grond van een feit waarvoor voorlopige hechtenis niet is toegelaten, wordt hem een vergoeding uit de overheidskas toegekend voor de schade welke hij ten gevolge van ondergane inverzekeringstelling of voorlopige hechtenis heeft geleden.
+2. Onder een vergoeding, als bedoeld in het eerste lid vallen o.a. kosten van een advocaat, vergoeding vanwege onterechte detentie/vrijheidsberoving en misgelopen inkomsten vanwege het niet kunnen uitvoeren van zijn of haar werk.
+3. Vergoedingen zoals opgenomen in onderstaande tabel zijn gebaseerd op onterechte detentie en misgelopen inkomsten van het niet kunnen werken. Vergoeding van de advocaat wordt bepaald aan de hand van de daadwerkelijke kosten van de advocaat.
 4. Het eisen van een vergoeding is alleen mogelijk indien een advocaat is betrokken bij de zaak.
 5. Een uitzondering op lid 4 is indien vanuit de politie wordt besloten dat de persoon vrij wordt gesproken zonder dat er op dat moment een advocaat bij de zaak betrokken is. Een OvJ/HOvJ/hOvJ dient hierbij dan betrokken te zijn.
 
 | Vergoedingen | schadevergoeding  |
 |---|---|
-| per 1 uur op de politiebureau | € 2000,- |
-| per 1 uur in  de gevangenis | € 3500,- |
+| per 1 uur op het politiebureau | € 2000,- |
+| per 1 uur in de gevangenis | € 3500,- |
 | Advocaat kosten | n.t.b. |
 
 ### Artikel Burger-2 (Im)materiële schadevergoeding voor buitensporig geweld door overheidsmedewerker
@@ -680,10 +680,10 @@
 1. De overheidsmedewerker die is aangesteld voor de uitvoering van de politietaak, is bevoegd in de rechtmatige uitoefening van zijn bediening geweld of vrijheidsbeperkende middelen te gebruiken, wanneer het daarmee beoogde doel dit, mede gelet op de aan het gebruik hiervan verbonden gevaren, rechtvaardigt en dat doel niet op een andere wijze kan worden bereikt. Aan het gebruik van geweld gaat zo mogelijk een waarschuwing vooraf.
 2. Subsidiariteit geeft aan of geweld gebruikt mag worden mits het doel niet op een andere manier kan worden bereikt.
 3. Proportionaliteit geeft aan dat de overheidsmedewerker die is aangesteld voor de uitvoering van de politietaak, niet méér geweld mag gebruiken dan nodig is. Belangrijk is dat het gebruikte geweld altijd in verhouding staat met de ernst van de situatie en het misdrijf.
-4. Indien niet is voldaan aan de vereisten van subsidiariteit en proportionaliteit en er is sprake van buitensporig geweld met schade tot gevolg, dan is de politie aansprakelijk voor de veroorzaakte schade. De schadevergoeding wordt bepaald aan de hand van onderstaande vergoeding tabel.
+4. Indien niet is voldaan aan de vereisten van subsidiariteit en proportionaliteit en er is sprake van buitensporig geweld met schade tot gevolg, dan is de politie aansprakelijk voor de veroorzaakte schade. De schadevergoeding wordt bepaald aan de hand van onderstaande vergoedingstabel.
 5. Het eisen van een vergoeding is alleen mogelijk indien een advocaat is betrokken bij de zaak.
-6. Een uitzondering op lid 5 is indien vanuit de politie zelf wordt aangegeven dat er buitensporig geweld is gebruikt zonder dat er op dat moment een advocaat bij de zaak betrokken is. Een OvJ/HOvJ/hOvJ dient hierbij dan bij betrokken te zijn.
-7. 
+6. Een uitzondering op lid 5 is indien vanuit de politie zelf wordt aangegeven dat er buitensporig geweld is gebruikt zonder dat er op dat moment een advocaat bij de zaak betrokken is. Een OvJ/HOvJ/hOvJ dient hierbij dan betrokken te zijn.
+
 | Vergoedingen | schadevergoeding |
 |---|---|
 | Onterecht gebruik wapenstok als geweldsmiddel | € 350,- |
@@ -695,8 +695,8 @@
 
 | DEFINITIE | TOELICHTING  |
 |---|---|
-| Open water      | Rivieren en riviermondingen, meren en zeeën van natuurlijke oorsprong die in directe verbinding staan met de open zee/oceaan. Met in directe verbinding staan wordt bedoeld: Een verbinding zonder obstakels, zoals een: dam(men), waterval(len), waterkering(en), etc. De directe verbinding dient voor schepen en of boten tevens bevaarbaar te zijn |
-| Binnenland     | Gebieden met een vast ondergrond (zand/aarde/steen) |
+| Open water      | Rivieren en riviermondingen, meren en zeeën van natuurlijke oorsprong die in directe verbinding staan met de open zee/oceaan. Met in directe verbinding staan wordt bedoeld: Een verbinding zonder obstakels, zoals een: dam(men), waterval(len), waterkering(en), etc. De directe verbinding dient voor schepen en/of boten tevens bevaarbaar te zijn |
+| Binnenland     | Gebieden met een vaste ondergrond (zand/aarde/steen) |
 | Binnenwater     | Rivieren, kanalen en meren zonder directe verbinding met de open zee/oceaan, die voor schepen en/of boten bevaarbaar zijn |
 
 ---------------------

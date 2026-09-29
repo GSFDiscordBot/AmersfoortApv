@@ -1,6 +1,6 @@
 # Risicogebieden
 
-Amersfoort kent meerdere risicogebieden. In een risicogebieden mag preventief gefouilleerd worden. Dus dat wil zeggen dat ook voertuigen gecontroleerd mogen worden. Hieronder zijn deze gebieden aangegeven.
+Amersfoort kent meerdere risicogebieden. In een risicogebied mag preventief gefouilleerd worden. Dus dat wil zeggen dat ook voertuigen gecontroleerd mogen worden. Hieronder zijn deze gebieden aangegeven.
 
 De korpsleiding is bevoegd om, in samenspraak met Beheer / Bestuur van Amersfoort, aanvullende risicogebieden aan te wijzen. Denk hierbij aan een noodverordering. Hiervoor gelden dezelfde regels als de normale risicogebieden.
 
@@ -105,7 +105,7 @@ _Maze Bank Arena_
 ---
 # Douanegebieden binnen Amersfoort
 
-Amersfoort kent meerdere douanegebieden. In deze risicogebieden mag preventief gefouilleerd worden. Dus dat wil zeggen dat ook voertuigen gecontroleerd mogen worden. Hieronder zijn deze gebieden aangegeven.
+Amersfoort kent meerdere douanegebieden. In deze douanegebieden mag preventief gefouilleerd worden. Dus dat wil zeggen dat ook voertuigen gecontroleerd mogen worden. Hieronder zijn deze gebieden aangegeven.
 
 De korpsleiding is bevoegd om, in samenspraak met de gemeenteraad van Amersfoort, aanvullende douanegebieden aan te wijzen. Hiervoor gelden dezelfde regels als de normale douanegebieden.
 
@@ -124,6 +124,6 @@ De volgende gebieden zijn aangemerkt als no fly zones.
 * Blokkenpark tot een hoogte van 300 meter (1000 feet)
 * Vliegdekschip
 
-Hieronder staan deze zones weergegeven Amersfoort.
+Hieronder staan deze zones weergegeven in Amersfoort.
 
 ![No fly zones](/img/restrictedAirspace.webp)
