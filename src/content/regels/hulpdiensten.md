@@ -45,11 +45,11 @@ Het is verplicht om je aan de eisen te houden die zijn afgesproken onderling, do
 	- Bij een huiszoeking mogen de voertuigen/eilandvoertuigen van verdachten worden gecontroleerd. (In dit geval mag de verdachte hier niet mee wegrijden.)
 3. Tijdens een huiszoeking mogen de volgende dingen in beslag worden genomen:
 	- Als er wapens aangetroffen worden dan mag 50% van de totale inhoud van de woning en de voertuigen/vaartuigen/vliegtuigen/container samen in beslag worden genomen.
-	- Echter word tijdens de huiszoeking zelf de volle 100% ingenomen en kun jij later via een ticket de 50% terug krijgen bij een van de HDC's
+	- Echter wordt tijdens de huiszoeking zelf de volle 100% ingenomen en kun jij later via een ticket de 50% terug krijgen bij een van de HDC's
 4. Regels tijdens een huiszoeking.
 	- Bij de huiszoeking is de verdachte ten aller tijden verplicht hieraan mee te werken, wordt dit niet gedaan dan zal hij al zijn wapens moeten inleveren.
-	- Tijdens een huiszoeking mag de verdachte niet worden vrijgebroken. Tenzij de verdachte vanuit het hoofdbureau naar de gevangenis vervoerd wordt, de verdachte heeft dan recht op 1 telefoontje om te melden dat hij vervoerd word.
-	- Als de verdachte word vrijgebroken door zijn/haar eigen gangmembers zal persoon niet 50% moeten afstaan maar 30% en krijg dus 70% van de totale inhoud terug.
+	- Tijdens een huiszoeking mag de verdachte niet worden vrijgebroken. Tenzij de verdachte vanuit het hoofdbureau naar de gevangenis vervoerd wordt, de verdachte heeft dan recht op 1 telefoontje om te melden dat hij vervoerd wordt.
+	- Als de verdachte wordt vrijgebroken door zijn/haar eigen gangmembers zal persoon niet 50% moeten afstaan maar 30% en krijg dus 70% van de totale inhoud terug.
 
 ### Artikel 202.HD - Aanhouden & Transporteren
 
@@ -85,16 +85,16 @@ Medische hulp dient ten aller tijden geboden te worden wanneer dit noodzakelijk 
 2. Buiten de gebruikelijke geweldsmiddelen mag ook een dienstvoertuig gebruikt worden als geweldsmiddelen in geval van achtervolging.
 	- Pitten max tot een maximale snelheid van 100 km/u
 	- Pitten max tot een maximale snelheid van 150 km/u door de gespecialiseerde eenheden (SIV & DSI)
-3. Wanneer een agent een **Vuurwapen** trekt binnen 10 meter dien je ten alle tijden mee te werken en te voldoen aan zijn/haar vorderingen.
+3. Wanneer een agent een **Vuurwapen** trekt binnen 10 meter dien je te allen tijde mee te werken en te voldoen aan zijn/haar vorderingen.
 	- Bij het gebruik van het vuurwapen dient de verdachte medische hulp te krijgen.
-4. Wanneer een agent een **Tazer** trekt binnen 10 meter dien je ten alle tijden mee te werken en te voldoen aan zijn/haar vorderingen.
+4. Wanneer een agent een **Tazer** trekt binnen 10 meter dien je te allen tijde mee te werken en te voldoen aan zijn/haar vorderingen.
 	- Bij het gebruik van de taser dienen de pinnen uit het lichaam van de verdachte gehaald te worden.
-	- Een tazer word te alle tijden gezien als een geweldsmiddel en staat dus gelijk aan een Vuurwapen.
-	- Een Tazer word te alle tijden gezien als een geweldsmiddel ongeacht welk dreigings niveau op dat moment van kracht is.
-	- Als persoon in een auto zit en er word een tazer op hem/haar gericht **(Binnen 10 meter)** dient persoon ten alle tijden mee te werken.
-5. Wanneer een agent een **Wapenstok** trekt binnen 10 meter dien je ten alle tijden mee te werken en te voldoen aan zijn/haar vorderingen.
-	- Een Wapenstok word te alle tijden gezien als een geweldsmiddel en staat dus gelijk aan een Slag/Steek Wapen.
-	- Een Wapenstok word te alle tijden gezien als een geweldsmiddel ongeacht welk dreigings niveau op dat moment van kracht is
+	- Een tazer wordt te allen tijde gezien als een geweldsmiddel en staat dus gelijk aan een Vuurwapen.
+	- Een Tazer wordt te allen tijde gezien als een geweldsmiddel ongeacht welk dreigings niveau op dat moment van kracht is.
+	- Als persoon in een auto zit en er wordt een tazer op hem/haar gericht **(Binnen 10 meter)** dient persoon te allen tijde mee te werken.
+5. Wanneer een agent een **Wapenstok** trekt binnen 10 meter dien je te allen tijde mee te werken en te voldoen aan zijn/haar vorderingen.
+	- Een Wapenstok wordt te allen tijde gezien als een geweldsmiddel en staat dus gelijk aan een Slag/Steek Wapen.
+	- Een Wapenstok wordt te allen tijde gezien als een geweldsmiddel ongeacht welk dreigings niveau op dat moment van kracht is
 
 ### Artikel 205.HD - Greenzone
 
@@ -108,23 +108,23 @@ Medische hulp dient ten aller tijden geboden te worden wanneer dit noodzakelijk 
 
 ### Artikel 206.HD - Benen schieten
 
-- Zodra je in je benen word geschoten kan je 5 seconden je wapen niet trekken, dit betekent dat je wel mag weg lopen en dus niet hoeft te zitten.
+- Zodra je in je benen wordt geschoten kan je 5 seconden je wapen niet trekken, dit betekent dat je wel mag weg lopen en dus niet hoeft te zitten.
 
 ### Artikel 207.HD - Volgorde Aanhouding
-De senarios hieronder zijn richtlijnen de politie mag dus ten alle tijden hier van afwijken mochten zij dit nodig achten.
+De senarios hieronder zijn richtlijnen de politie mag dus te allen tijde hier van afwijken mochten zij dit nodig achten.
 
 1. Persoon is beentjes geschoten:
 	- Eerst boeit de politie de verdachte af.
-	- Dan word de verdachte gefouilleerd en worden mogelijke illegale wapens en of items op locatie (PD) in beslag genomen.
+	- Dan wordt de verdachte gefouilleerd en worden mogelijke illegale wapens en of items op locatie (PD) in beslag genomen.
 	- Als laatste krijgt de verdachte medische zorg (Als het mogelijk is op locatie zo niet op het dichtstbijzijnde Politie HB)
-2. Persoon is dood geschoten en word omhoog geholpen door de ambulance of dsi:
+2. Persoon is dood geschoten en wordt omhoog geholpen door de ambulance of dsi:
 	- Eerst krijgt de verdachte medische zorg van de ambulance/dsi.
-	- Dan word de verdachte afgeboeit door de agenten.
-	- Als laatste word de verdachte gefouilleerd en worden mogelijke illegale wapens en of items op locatie (PD) in beslag genomen.
+	- Dan wordt de verdachte afgeboeit door de agenten.
+	- Als laatste wordt de verdachte gefouilleerd en worden mogelijke illegale wapens en of items op locatie (PD) in beslag genomen.
 3. Persoon is dood en niet meer te redden.
-	- Eerst word er gekeken of persoon niet meer te redden is.
-	- Dan word persoon indien mogelijk dood verklaard door de ambulance.
-	- Als laatste word de verdachte gefouilleerd en worden mogelijke illegale wapens en of items op locatie (PD) in beslag genomen.
+	- Eerst wordt er gekeken of persoon niet meer te redden is.
+	- Dan wordt persoon indien mogelijk dood verklaard door de ambulance.
+	- Als laatste wordt de verdachte gefouilleerd en worden mogelijke illegale wapens en of items op locatie (PD) in beslag genomen.
 
 ### Artikel 208.HD - Gijzeling
 
@@ -148,7 +148,7 @@ De senarios hieronder zijn richtlijnen de politie mag dus ten alle tijden hier v
        - Er meer dan 6 mensen van een gang met de zelfde achternaam vaker dan 2x zijn aangehouden door de politie voor criminele activiteiten.
 2. Tijdens een Ganginval mogen de volgende dingen inbeslag worden genomen:
        - De volledige inhoud van alle gangkluizen (dus 100%)
-3. Tijdens een Ganginval word iedereen die zich op het gangterrein bevind aanghouden.
+3. Tijdens een Ganginval wordt iedereen die zich op het gangterrein bevind aanghouden.
        - De personen die worden aangehouden krijgen een normale huiszoeking en hier geldt dan ook de 50% regeling. 
 4. Regels tijdens een Ganginval.
        - Het is niet toegestaan om vanuit buitenaf te counteren.
@@ -158,7 +158,7 @@ De senarios hieronder zijn richtlijnen de politie mag dus ten alle tijden hier v
 ### Artikel 210.HD - Aankoppel Regels
 
 1. Aan de volgende senarios mag een maximaal aantal eenheden koppelen.
-2. OvD-P/OpCo Vallen niet onder deze regel en zijn ten alle tijden een uitzondering op de aantallen hieronder genoemd. 
+2. OvD-P/OpCo Vallen niet onder deze regel en zijn te allen tijde een uitzondering op de aantallen hieronder genoemd. 
 
 3. Plofkraak.
        - Maximaal 3 Eenheden (3 Voertuigen)
@@ -182,8 +182,8 @@ De senarios hieronder zijn richtlijnen de politie mag dus ten alle tijden hier v
 ### Artikel 211.HD - Inbeslagname Vuurwapens en of illegale items
 Aan de volgende regels dient een agent zich te houden tijdens de inbeslagname van een vuurwapen en of items.
 
-1. Een agent mag ten alle tijden het vuurwapen op de locatie van aanhouding (PD) inbeslag nemen.
-2. De agent die persoon vervoerd dient ten alle tijden het wapen van de verdachte opzak te hebben tijdens transport richting HB en of Gevangenis.
+1. Een agent mag te allen tijde het vuurwapen op de locatie van aanhouding (PD) inbeslag nemen.
+2. De agent die persoon vervoerd dient te allen tijde het wapen van de verdachte opzak te hebben tijdens transport richting HB en of Gevangenis.
 3. Stappenplan Transport
 	- Na aanhouding op locatie (PD) wordt de verdachte naar het dichtstbijzijnde hoofdbureau vervoerd. 
 	- Aangekomen op het HB wordt de persoon aangemeld in het MEOS-systeem en worden de nodige straffen berekend, eventueel in samenspraak met een advocaat. 
@@ -195,16 +195,16 @@ Aan de volgende regels dient een agent zich te houden tijdens de inbeslagname va
 Aan de volgende regels dient een crimineel zich te houden tijdens de roleplay als advocaat zijnde.
 
 1. Als een Crimineel ervoor kiest om deel te nemen aan een scenario als advocaat mag hij nadat hij het HB uitloopt de komende 10 minuten niet meer aankoppelen aan dit zelfde scenario met een vuurwapen (om bijvoorbeeld zijn of haar vriend/gangmember te bevrijden met een vuurwapen)
-2. Als een Crimineel ervoor kiest om deel te nemen aan een scenario als advocaat dient hij ten alle tijden **zonder** vuurwapen te komen (HB is nog steeds een greenzone) en mee te werken aan de RP tussen de agent en de verdachte.
+2. Als een Crimineel ervoor kiest om deel te nemen aan een scenario als advocaat dient hij te allen tijde **zonder** vuurwapen te komen (HB is nog steeds een greenzone) en mee te werken aan de RP tussen de agent en de verdachte.
 
 ### Artikel 213.HD - Combat gedrag
 1. Het gebruik maken van een combat-rol is niet toegestaan, of dit nou op het HB is of in een shootout.
-2. Het finishen van criminelen is niet toegestaan, dit komt te vervallen op het moment dat er meerdere male op elkaar word uitgestapt of als er een verschil in de partijen zit van 4 criminelen is het toegestaan voor een agent om noodweer toe te passen!
+2. Het finishen van criminelen is niet toegestaan, dit komt te vervallen op het moment dat er meerdere male op elkaar wordt uitgestapt of als er een verschil in de partijen zit van 4 criminelen is het toegestaan voor een agent om noodweer toe te passen!
 
 ### Artikel 214.HD - Noodweer
 Wanneer bevind een agent zich in noodweer?
 1. Wanneer er een actieve shootout is tussen politie en criminelen.
-2. Wanneer er meerdere malen op elkaar word uitgestapt
+2. Wanneer er meerdere malen op elkaar wordt uitgestapt
 3. Op het moment dat criminelen in een shootout met minimaal meer dan 4 zijn. (Agenten in de minderheid)
 
 Wanneer minimaal 2 van de 3 bovenstaande criteria een feit zijn, mag een agent noodweer toepassen.
@@ -249,7 +249,7 @@ Wanneer minimaal 2 van de 3 bovenstaande criteria een feit zijn, mag een agent n
 1. Op het moment dat je bent aangehouden zal je tijdelijk vastgehouden worden in het cellencomplex op een HB.
 2. Voor de agent is het toegestaan om een verdachte voor maximaal 10 minuten vast te houden in het cellencomplex van HB. Hierna moet de agent de verdachte verplicht transporteren.
 3. Wanneer de verdachte vraagt om een advocaat mag een agent de verdachte voor maximaal 30 minuten vasthouden.
-4. Wanneer een verdachte word verhoord door de DNR of DSI mag de verdachte voor maximaal 1 uur vastgehouden worden in het cellencomplex of verhoorkamer.
+4. Wanneer een verdachte wordt verhoord door de DNR of DSI mag de verdachte voor maximaal 1 uur vastgehouden worden in het cellencomplex of verhoorkamer.
 5. Op het moment dat de agent de verdachte naar de gevangenis heeft gebracht is de maximale jailtijd die gegeven mag worden 150 maanden (2,5 uur).
 6. Deze 150 maanden mogen enkel overschreden worden door korpsleiding/brigadeleiding leden en HDA's/HDC's/HHDC's tot een maximaal van 300 maanden.
 

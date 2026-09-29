@@ -2,13 +2,13 @@
 
 De ANWB hanteert de volgende prijzen voor de diensten die zij leveren.
 
-### Categoriën
+### Categorieën
 
-Bij de anwb worden verschillende categorieën gehanteerd hier onder zijn deze te vinden.
+Bij de anwb worden verschillende categorieën gehanteerd hieronder zijn deze te vinden.
 
 |Categorie| omschrijving |
 |:-------:|------------|
-| Categorie 1 | Lakschade, Wagen kan niet meer getuned worden, orange motorlampje |
+| Categorie 1 | Lakschade, Wagen kan niet meer getuned worden, oranje motorlampje |
 | Categorie 2 | koplamp(en) en of achterlamp(en) stuk, kleine deuken, Eén of twee ramen kapot, Eén lekke band.|
 | Categorie 3 | Grote deuken, Meer dan twee ramen kapot, meerdere banden lek, twee deuren weg, motorkap/kofferklep weg|
 | Categorie 4 | Meer dan twee deuren weg, vervorming van het frame, Rood motorlampje |
@@ -60,10 +60,10 @@ Bij de anwb worden verschillende categorieën gehanteerd hier onder zijn deze te
 | Categorie | Prijs | 
 |:---------:|:-----------:|
 | Abonnement | € 250,- |
-- Wegslepen, Voorrijkosten Of Bijtanken moetne hier wel nog boven op in rekening gebracht worden
+- Wegslepen, Voorrijkosten Of Bijtanken moeten hier wel nog boven op in rekening gebracht worden
 
 !!! attention "LET OP"
-    De prijzen kunnen ten alle tijden worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden worden gewijzigd
 
 
 ## Advocatuur
@@ -96,12 +96,12 @@ Elk half uur is € 2500,-
 |etc. |  |
 
 !!! attention "LET OP"
-    De prijzen kunnen ten alle tijden worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden worden gewijzigd
 
 
 ## Politie
 
-De politie hanteert de volgende boetebedragen. Deze kunnen ten alle tijden worden worden gewijzigd
+De politie hanteert de volgende boetebedragen. Deze kunnen te allen tijde worden worden gewijzigd
 
 ### Verkeers misdrijf
 
@@ -224,7 +224,7 @@ De politie hanteert de volgende boetebedragen. Deze kunnen ten alle tijden worde
 | Gekwalificeerde Diefstal tweede veroordeling | € 12500,- |
 | Gekwalificeerde Diefstal meerdere veroordelingen | € 15000,- |
 | Diefstal met geweld eerste veroordeling | € 2000,- |
-| Diefstal met geweld tweede verroordeling | € 4000,- |
+| Diefstal met geweld tweede veroordeling | € 4000,- |
 | Diefstal met geweld meerdere veroordelingen | € 6000,- ||
 | Misdrijven tegen de openbare orde eerste Veroordeling | € 2500,-  |
 | Misdrijven tegen de openbare orde tweede Veroordeling | € 5000,-  |
@@ -249,9 +249,9 @@ De politie hanteert de volgende boetebedragen. Deze kunnen ten alle tijden worde
 | Poging tot moord op een overheidsmedewerker | € 19150,- |
 | Moord | € 20000,- |
 | Moord op een overheidsmedewerker | € 26600,- |
-| Gekwalifiseerde diefstal eerste veroordeling | € 15000,- |
-| Gekwalifiseerde diefstal tweede veroordeling | € 17500,- |
-| Gekwalifiseerde diefstal derde veroordeling | € 25000,- |
+| Gekwalificeerde diefstal eerste veroordeling | € 15000,- |
+| Gekwalificeerde diefstal tweede veroordeling | € 17500,- |
+| Gekwalificeerde diefstal derde veroordeling | € 25000,- |
 | Terroristisch misdrijf eerste veroordeling | € 30000,- |
 | Terroristisch misdrijf tweede veroordeling | € 37500,- |
 | Terroristisch misdrijf meerdere veroordelingen | € 45000,- |
@@ -263,7 +263,7 @@ De politie hanteert de volgende boetebedragen. Deze kunnen ten alle tijden worde
 | Zonder Vliegbrevet vliegen | € 75000,- |
 
 !!! attention "LET OP"
-    De prijzen kunnen ten alle tijden worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden worden gewijzigd
 
 !!! attention "LET OP"
     De prijzen kunnen achterlopen met wat er in het wetboek staat beschreven. Kijk voor de actuele prijzen [hier](https://amersfoortrp.github.io/apv/wetboek/)
@@ -281,4 +281,4 @@ De Vliegschool hanteert de volgende prijzen voor de verschillende opleidingen en
 |Aantekening stuntvliegen | € 20000,- |
 
 !!! attention "LET OP"
-    De prijzen kunnen ten alle tijden worden worden gewijzigd
+    De prijzen kunnen te allen tijde worden worden gewijzigd

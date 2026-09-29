@@ -19,11 +19,11 @@ Proberen ‘’loopholes’’ te vinden in de regels en/of de regels te misbrui
 ### **Artikel 6.INF - Tonen bewijsmateriaal**
 1. Een stafflid is niet verplicht om verzameld bewijsmateriaal te tonen aan een speler, wanneer hij/zij een straf heeft gekregen na het overtreden van een/of meerdere regels.
 
-### **Artikel 7.INF -  Burger Raporteren**
+### **Artikel 7.INF -  Burger Rapporteren**
 1. Een klacht over een speler dient binnen een week aangemaakt te worden. Daarna zal het niet meer bekeken worden door een stafflid in kwestie.
 
 ### **Artikel 8.INF - Liegen Tegen Staff** 
-1. Liegen tegen staffleden is ten alle tijden niet toegestaan, hier staat een straf op van minimaal categorie 5.
+1. Liegen tegen staffleden is te allen tijde niet toegestaan, hier staat een straf op van minimaal categorie 5.
 
 ### **Artikel 9.INF - Informatie achterhouden voor staff**
 1. Het is niet toegestaan om informatie voor een stafflid te achterhouden.  Zodra een stafflid jou iets vraagt, verwachten we dus ook dat jij naar alle waarheid de informatie verstrekt. Hier niet aan meewerken zal een straf van categorie 5.

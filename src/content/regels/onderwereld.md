@@ -33,7 +33,7 @@ Geblindeerde ramen zijn geen geldige reden om iemand te rippen.
 7. Een persoon kan alleen worden geript als binnen een uur na aankomst op het eiland kan worden vastgesteld dat hij of zij daar is geweest. Dit moet gebeuren aan de hand van 8. een ID-kaart en een herkenbare outfit. Na dit uur vervalt de mogelijkheid om de persoon te rippen.
 8. Zodra jij iemand spot met een vuurwapen en hem achtervolgt voor 4/5 bochten en/of 2 minuten, heeft de persoon recht om op jou te rippen.
 9. Op het moment dat jij 2 minuten rondhangt omtrent een scenario waar geschoten is is het toegestaan om persoon te rippen.
-Indien dit het geval is vervallen de normale ripregels hiervan dien jij ten alle tijden bewijs aan te kunnen tonen via een clip.
+Indien dit het geval is vervallen de normale ripregels hiervan dien jij te allen tijde bewijs aan te kunnen tonen via een clip.
 10. Vanaf nu mag je alle witgeld/zwartgeld rippen van een persoon die ook een wapen op zak heeft. Heeft iemand alleen geld op zak mag je hem niet rippen ook al draagt ie een masker/holster/bulletproof vest. Dit geldt op land en eiland! 
 
 
@@ -133,7 +133,7 @@ Iemand laten instappen in je auto, en vervolgens /me boeit vast + pakt coms af.
 - Heel lang wachten voordat je wapen inlevert tijdens een rip-actie. Je dient je wapen direct in te leveren zodra dat wordt gezegd je probeert haast tot geen tijd te rekken. Je geeft uiteraard om je leven.
 
 ### Artikel 110.OW - Benen schieten
-1. Zodra je in je benen word geschoten kan je 7 seconden je wapen niet trekken, dit betekent dat je wel mag weg lopen en dus niet hoeft te zitten.
+1. Zodra je in je benen wordt geschoten kan je 7 seconden je wapen niet trekken, dit betekent dat je wel mag weg lopen en dus niet hoeft te zitten.
 
 ### Artikel 111.OW - Gangkluis stelen
 Het stelen uit een gangkluis terwijl dit niet van jouw is, is NIET toegestaan.
@@ -310,11 +310,11 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 	- Is het toegestaan om 1x een gijzeling binnen 30 minuten te starten, Mocht je voor een 2e keer binnen 30 minuten een gijzeling starten is er een mogelijkheid dat de DSI ingrijpt. 
 2. Mocht je in een hostage situatie (hieronder gelden ook alle vormen van overvallen) zitten en de politie is aangekoppeld aan de situatie is het verboden de hostage situatie te verlaten **(enkel pas na groenlicht)**.
 3. Je mag per hostage situatie maximaal 2 agenten hostage nemen als deze gezamelijk als koppel rond rijden. Rijd deze agent alleen blijft dit maximaal 1 agent!
-4. De politie agent die gaat onderhandelen is verplicht zijn onderhandelaars hesje aan te doen zodat deze ten alle tijden goed zichtbaar is.
+4. De politie agent die gaat onderhandelen is verplicht zijn onderhandelaars hesje aan te doen zodat deze te allen tijde goed zichtbaar is.
 	- Een onderhanderlaar is altijd te herkennen aan het witte onderhanderlaars hesje.
 5. Het is verboden om agenten die bezig zijn met een training hostage te nemen.
 	- Trainings voertuigen kan je herkennen aan de grijs/blauwe strepen ''Secundaire Striping'' en het woord ''Trainingsvoertuig'' op de zijkant.
-	- Een agent die bezig is met zijn of haar training zal te alle tijden een blauwe Academie outfit aanhebben.
+	- Een agent die bezig is met zijn of haar training zal te allen tijde een blauwe Academie outfit aanhebben.
 6. Het is verboden om een OvD/OpCo van de politie hostage te nemen.
 	- Deze kan je herkennen aan het groene politie hesje/steekvest of de OpCo Letters in het rood achterop het steekvest. 
 7. Het is verboden om te counteren/schieten op een Hostage Situatie als de politie al is aangekoppelt.  
@@ -348,7 +348,7 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 ### Artikel 134.OW Vrijbreken van gangmembers
 
 1. Als je tijdens een scenario je vriend inculsief wapen wilt terug eisen, gelden de volgende regels:
-	- Het is alleen mogelijk om je vriend terug te krijgen door het voertuig die weg rijd vanaf het senario waarin hij/zij word vervoerd te counteren met minimaal 2 vuurwapens!
+	- Het is alleen mogelijk om je vriend terug te krijgen door het voertuig die weg rijd vanaf het senario waarin hij/zij wordt vervoerd te counteren met minimaal 2 vuurwapens!
 	- Je mag pas counteren als het busje (met de aangehouden persoon) minimaal 200 meter van de oorspronkelijke locatie is verplaatst.
 3. Wanneer een crimineel op het politiebureau zit is het toegestaan om op een andere plek (dus niet bij hb). één scenario te starten om je collega vrij te krijgen.
 	- Hiervoor heb je minimaal 5 hostages nodig, waarvan één agent.
@@ -382,11 +382,11 @@ Wordt deze stap overgeslagen, kan de geripte persoon een refund aanvragen door e
 ### Artikel 138.OW Holden
 
 1. Holden is alleen toegestaan onder de volgende omstandigheden:
-* Wanneer jij een overval doet en je word gecounterd is het toegestaan om te holden.
+* Wanneer jij een overval doet en je wordt gecounterd is het toegestaan om te holden.
 * Op eiland is het toegestaan om te holden. (het is niet toegestaan om eiland-brug te holden)
 
 2. **Wanneer is holden niet toegestaan:**
-* Als jij achtervolgt word en je gaat een gebouw in (denk aan een winkeltje, lester's huis, strandhuis etc.) om dat te holden.
+* Als jij achtervolgt wordt en je gaat een gebouw in (denk aan een winkeltje, lester's huis, strandhuis etc.) om dat te holden.
 
 ### Artikel 139.OW Dashboard en Kofferbak
 
@@ -423,7 +423,7 @@ Alleen wanneer de bovenstaande criteria een feit zijn is het toegestaan om spull
 
 ### Artikel 143.OW Respawn Pass
 
-1. Het is niet toegestaan om je respawn pass te gebruiken wanneer je omhoog word geholpen door een andere crimineel.
+1. Het is niet toegestaan om je respawn pass te gebruiken wanneer je omhoog wordt geholpen door een andere crimineel.
 	- Mocht je je respawn pass gebruiken wanneer dat toegestaan is mag je pas na 20 min opnieuw aankoppelen bij het zelfde scenario.
 
 ### Artikel 144.OW Turf Gebied
@@ -453,7 +453,7 @@ Gebeurd dit te vaak dan zal het resulteren in het inleveren van alle wapens.
 
    ### **Artikel 146.OW Ripzone**
    
-1. Indien je de ripzone betreed vervallen de ripregels en heb je ten alle tijden een reden om persoon te rippen.
+1. Indien je de ripzone betreed vervallen de ripregels en heb je te allen tijde een reden om persoon te rippen.
 2. Zodra je de ripzone verlaat en persoon houdt je in zicht heb je een geldige reden op persoon, indien je hem uit zicht verliest vervalt je ripreden.
 3. Het is toegestaan zodra je de ripzone betreed je uit je voertuig headshot geschoten mag worden.
 4. De Ripzone is te herkennen aan de rode cirkel op je mini map & de melding bovenaan in je scherm je bevindt je momenteel in een ripzone. (Postcode 102)

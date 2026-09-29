@@ -147,18 +147,30 @@ const telling = alleArtikelen.length;
       openKnop.textContent = nuOpen ? 'Alles dichtklappen' : 'Alles openklappen';
     });
 
-    // Link naar een artikel (zijbalk of adres): klap dat artikel open
-    function naarHash() {
+    // Naar een artikel of hoofdstuk gaan: klap het open en scroll ernaartoe, zonder het adres te veranderen
+    function openEnScroll(id: string) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (el instanceof HTMLDetailsElement) el.open = true;
+      el.scrollIntoView({ block: 'start' });
+    }
+    sidebar?.addEventListener('click', (e) => {
+      const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[data-id]');
+      if (!link) return;
+      e.preventDefault();
+      openEnScroll(link.dataset.id ?? '');
+    });
+
+    // Komt iemand binnen via een link met #artikel (bijv. vanaf de homepage)? Open het artikel en haal de # weg,
+    // zodat verversen weer op de gewone pagina uitkomt.
+    function vanuitAdres() {
       const id = decodeURIComponent(location.hash.slice(1));
       if (!id) return;
-      const el = document.getElementById(id);
-      if (el instanceof HTMLDetailsElement) {
-        el.open = true;
-        requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
-      }
+      openEnScroll(id);
+      history.replaceState(null, '', location.pathname + location.search);
     }
-    window.addEventListener('hashchange', naarHash);
-    naarHash();
+    window.addEventListener('hashchange', vanuitAdres);
+    vanuitAdres();
 
     // Actief onderdeel in de zijbalk markeren tijdens het scrollen
     let actief: HTMLElement | null = null;

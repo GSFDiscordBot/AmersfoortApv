@@ -61,9 +61,9 @@
 ### A7 - Inbeslagname
 
 1. Wanneer een strafbaar feit gepleegd is met een goed, of wanneer een goed uit een strafbaar feit is verkregen, kan deze in beslag worden genomen.
-2. Een inbeslaggenomen voertuig kan na minimaal 24 uur teruggekocht worden tenzij deze wordt vastgehouden voor onderzoek.
-3. Een inbeslaggenomen voertuig kan maximaal 3 dagen worden vastgehouden voor onderzoek.
-4. Een inbeslaggenomen voertuig kan kosteloos worden teruggegeven indien aan is getoond dat het goed niet betrokken is bij een strafbaar feit.
+2. Een in beslag genomen voertuig kan na minimaal 24 uur teruggekocht worden tenzij deze wordt vastgehouden voor onderzoek.
+3. Een in beslag genomen voertuig kan maximaal 3 dagen worden vastgehouden voor onderzoek.
+4. Een in beslag genomen voertuig kan kosteloos worden teruggegeven indien aan is getoond dat het goed niet betrokken is bij een strafbaar feit.
 5. Een voertuig dat illegaal is zal niet meer kunnen worden terugverkocht en zal vernietigd worden.
 6. Redenen voor inbeslagname zijn:
 	* Plegen van een strafbaar feit.
@@ -155,7 +155,7 @@
 ### Artikel II-1 Verzet (180 SR)
 
 1. Schuldig is een persoon die geweld pleegt of zich gewelddadig verzet tegen een ambtenaar in dienst.
-2. Schuldig is een persoon die zicht verzet tegen een burger die uit een wettelijk bevel de ambtenaar assisteerd.
+2. Schuldig is een persoon die zich verzet tegen een burger die uit een wettelijk bevel de ambtenaar assisteert.
 
 |   | *Celstraf* | *Boete*  |
 |---|---|---|
@@ -578,7 +578,7 @@
 	* Luchthavens
 	* Grensinspectieposten
 	* Overige aangegeven douanegebieden
-2. De douane maakt van zijn bevoegdheden slechts gebruik voorzover dat redelijkerwijs voor de vervulling van zijn taak nodig is.
+2. De douane maakt van zijn bevoegdheden slechts gebruik voor zover dat redelijkerwijs voor de vervulling van zijn taak nodig is.
 3. De douane is bevoegd te fouilleren en voertuigen te doorzoeken tijdens controle.
 
 ## Gebieden
@@ -602,7 +602,7 @@
     1. wegens de gebrekkige ontwikkeling of ziekelijke stoornis van zijn of haar geestvermogens een strafbaar feit begaat
     2. door overmacht is gedwongen een strafbaar feit te begaan
     3. vanwege een noodzakelijke verdediging van eigen of andermans lijf, eerbaarheid of goed tegen ogenblikkelijke, wederrechtelijke aanranding een strafbaar feit begaat
-    4. de grenzen van bovenstaande noodweer overtreedt gevolgens een hevige gemoedsbeweging, veroorzaakt door de aanranding
+    4. de grenzen van bovenstaande noodweer overtreedt ten gevolge van een hevige gemoedsbeweging, veroorzaakt door de aanranding
     5. een strafbaar feit begaat ter uitvoering van een wettelijk voorschrift
     6. een strafbaar feit begaat ter uitvoering van een ambtelijk bevel, gegeven door het daartoe bevoegde gezag
 
