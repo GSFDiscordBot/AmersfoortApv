@@ -2,21 +2,23 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { sets } from '../../lib/sets';
+import { parseRegels } from '../../lib/regels';
 
 export function getStaticPaths() {
   return sets.map((set) => ({ params: { set: set.slug }, props: { set } }));
 }
 
 const { set } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-const hoofdstukken = (await getCollection('regels'))
-  .filter((e) => e.id.startsWith(`${set.slug}/`))
-  .sort((a, b) => a.data.volgorde - b.data.volgorde);
+const bron = (await getCollection('regels')).find((e) => e.id === set.slug);
+const hoofdstukken = bron?.body ? parseRegels(bron.body, base) : [];
 
-const alleArtikelen = hoofdstukken.flatMap((h) => h.data.artikelen);
-const categorieen = [...new Set(alleArtikelen.map((a) => a.categorie).filter(Boolean))] as string[];
-const heeftNiveaus = alleArtikelen.some((a) => a.niveau);
-const euro = (n: number) => `€${n.toLocaleString('nl-NL')}`;
+const alleArtikelen = hoofdstukken.flatMap((h) => h.artikelen);
+const categorieen = [...new Set(alleArtikelen.map((a) => a.catNr).filter(Boolean))].sort(
+  (a, b) => Number(a) - Number(b),
+) as string[];
+const telling = alleArtikelen.length;
 ---
 
 <Base title={set.lang} description={set.beschrijving} active={set.slug}>
@@ -28,58 +30,41 @@ const euro = (n: number) => `€${n.toLocaleString('nl-NL')}`;
     </div>
 
     {hoofdstukken.length === 0 ? (
-      <div class="notice">Dit regelboek wordt nog ingevuld voor de nieuwe stad.</div>
+      <div class="notice">Dit regelboek wordt nog ingevuld.</div>
     ) : (
       <div class="layout">
         <aside class="sidebar">
-          <h4>Hoofdstukken</h4>
+          <h4>Inhoud</h4>
           {hoofdstukken.map((h) => (
-            <a href={`#${h.id.split('/')[1]}`} data-hoofdstuk={h.id.split('/')[1]}>{h.data.titel}</a>
+            <a href={`#${h.id}`} data-hoofdstuk={h.id}>{h.titel}</a>
           ))}
         </aside>
 
         <div>
-          <div class="toolbar">
-            <input class="search" id="zoek" type="search" placeholder="Zoek in dit regelboek…" autocomplete="off" />
-            {(categorieen.length > 0 || heeftNiveaus) && (
-              <div class="chips" id="chips">
-                <button class="chip on" data-filter="alle">Alles</button>
-                {categorieen.map((c) => <button class="chip" data-filter={`cat:${c}`}>{c}</button>)}
-                {heeftNiveaus && (
-                  <>
-                    <button class="chip" data-filter="niv:licht">Licht</button>
-                    <button class="chip" data-filter="niv:middel">Middel</button>
-                    <button class="chip" data-filter="niv:zwaar">Zwaar</button>
-                  </>
-                )}
-              </div>
-            )}
-          </div>
+          {telling > 0 && (
+            <div class="toolbar">
+              <input class="search" id="zoek" type="search" placeholder={`Zoek in ${telling} artikelen…`} autocomplete="off" />
+              {categorieen.length > 0 && (
+                <div class="chips" id="chips">
+                  <button class="chip on" data-filter="alle">Alles</button>
+                  {categorieen.map((c) => <button class="chip" data-filter={`cat:${c}`}>Categorie {c}</button>)}
+                </div>
+              )}
+            </div>
+          )}
 
           {hoofdstukken.map((h) => (
-            <section class="hoofdstuk" id={h.id.split('/')[1]}>
-              <h2>{h.data.titel}</h2>
-              {h.data.intro && <p class="intro">{h.data.intro}</p>}
-              {h.data.artikelen.map((a) => (
-                <article
-                  class:list={['artikel', a.niveau]}
-                  data-cat={a.categorie ?? ''}
-                  data-niv={a.niveau ?? ''}
-                  data-tekst={`${a.nr} ${a.titel} ${a.tekst} ${a.straf ?? ''}`.toLowerCase()}
-                >
+            <section class="hoofdstuk" id={h.id}>
+              <h2>{h.titel}</h2>
+              {h.introHtml && <div class="prose intro" set:html={h.introHtml} />}
+              {h.artikelen.map((a) => (
+                <article class="artikel" id={a.id} data-cat={a.catNr ?? ''} data-tekst={a.tekst}>
                   <header>
-                    <span class="nr">Art. {a.nr}</span>
+                    {a.nr && <span class="nr">{a.nr}</span>}
                     <h3>{a.titel}</h3>
+                    {a.categorie && <span class="badge straf">{a.categorie}</span>}
                   </header>
-                  <p>{a.tekst}</p>
-                  {(a.boete !== undefined || a.straf || a.niveau || a.categorie) && (
-                    <div class="badges">
-                      {a.boete !== undefined && <span class="badge boete">Boete {euro(a.boete)}</span>}
-                      {a.straf && <span class="badge">Straf: {a.straf}</span>}
-                      {a.niveau && <span class={`badge ${a.niveau}`}>{a.niveau}</span>}
-                      {a.categorie && <span class="badge">{a.categorie}</span>}
-                    </div>
-                  )}
+                  <div class="prose" set:html={a.html} />
                 </article>
               ))}
             </section>
@@ -104,18 +89,18 @@ const euro = (n: number) => `€${n.toLocaleString('nl-NL')}`;
       let zichtbaar = 0;
       artikelen.forEach((el) => {
         const okTekst = !q || (el.dataset.tekst ?? '').includes(q);
-        let okFilter = true;
-        if (filter.startsWith('cat:')) okFilter = el.dataset.cat === filter.slice(4);
-        if (filter.startsWith('niv:')) okFilter = el.dataset.niv === filter.slice(4);
+        const okFilter = !filter.startsWith('cat:') || el.dataset.cat === filter.slice(4);
         const toon = okTekst && okFilter;
         el.classList.toggle('hidden', !toon);
         if (toon) zichtbaar++;
       });
+      const filtert = q !== '' || filter !== 'alle';
       hoofdstukken.forEach((h) => {
         const heeft = h.querySelectorAll('.artikel:not(.hidden)').length > 0;
-        h.classList.toggle('hidden', !heeft);
+        const heeftArtikelen = h.querySelectorAll('.artikel').length > 0;
+        h.classList.toggle('hidden', filtert && heeftArtikelen && !heeft);
       });
-      geen?.classList.toggle('hidden', zichtbaar > 0);
+      geen?.classList.toggle('hidden', zichtbaar > 0 || !filtert);
     }
 
     zoek?.addEventListener('input', toepassen);

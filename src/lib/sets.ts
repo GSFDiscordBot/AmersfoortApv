@@ -3,43 +3,50 @@ export interface RegelSet {
   titel: string;
   lang: string;
   beschrijving: string;
-  icoon: string;
 }
 
+// slug = bestandsnaam in src/content/regels/ (zonder .md)
 export const sets: RegelSet[] = [
   {
     slug: 'apv',
     titel: 'APV',
     lang: 'Algemene Plaatselijke Verordening',
-    beschrijving: 'De basisregels voor iedereen in de stad, met boetes en straffen.',
-    icoon: '⚖️',
+    beschrijving: 'De serverregels: alles wat niet met de roleplay zelf te maken heeft, met de bijbehorende straffen.',
   },
   {
     slug: 'wetboek',
     titel: 'Wetboek AFR',
-    lang: 'Wetboek van Amersfoort RolePlay',
-    beschrijving: 'Strafbare feiten, straffen en hoe de rechtspraak werkt.',
-    icoon: '📖',
+    lang: 'Wetboek Amersfoort',
+    beschrijving: 'Alle wetten voor burgers: strafbare feiten met celstraf en boete.',
   },
   {
     slug: 'onderwereld',
     titel: 'Onderwereld',
     lang: 'Regels voor de Onderwereld',
-    beschrijving: 'Overvallen, gangs, criminele activiteiten en wat wel en niet mag.',
-    icoon: '🕶️',
+    beschrijving: 'Overvallen, gangs en criminele activiteiten: wat wel en niet mag.',
   },
   {
     slug: 'hulpdiensten',
     titel: 'Hulpdiensten',
     lang: 'Regels voor de Hulpdiensten',
-    beschrijving: 'Politie, ambulance, brandweer en hun bevoegdheden en procedures.',
-    icoon: '🚨',
+    beschrijving: 'Politie, ambulance en andere hulpdiensten: bevoegdheden en procedures.',
   },
   {
     slug: 'risicogebieden',
-    titel: 'Risicogebieden',
-    lang: 'Risicogebieden in de stad',
-    beschrijving: 'Waar gelden extra regels of verhoogde risico’s in de nieuwe stad.',
-    icoon: '⚠️',
+    titel: 'Gebieden',
+    lang: 'Risico-, douane- en no-flygebieden',
+    beschrijving: 'Waar preventief fouilleren mag en waar niet gevlogen mag worden.',
+  },
+  {
+    slug: 'kosten',
+    titel: 'Kosten',
+    lang: 'Kosten en tarieven',
+    beschrijving: 'Prijzen van ANWB, Advocatuur, Politie en Vliegschool.',
+  },
+  {
+    slug: 'informatie',
+    titel: 'Informatie',
+    lang: 'Informatie over straffen en support',
+    beschrijving: 'Bezwaar, bewijs, donaties en andere algemene afspraken.',
   },
 ];

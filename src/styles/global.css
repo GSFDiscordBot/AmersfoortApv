@@ -135,3 +135,30 @@ tr:last-child td { border-bottom: none; }
   .nav { display: none; position: absolute; top: 68px; left: 0; right: 0; flex-direction: column; background: var(--bg); border-bottom: 1px solid var(--line); padding: 12px 16px; margin: 0; }
   .nav.open { display: flex; }
 }
+
+/* Overgenomen Markdown-inhoud */
+.card .ico { width: 42px; height: 42px; color: var(--blue-2); margin-bottom: 12px; display: block; }
+.badge.straf { margin-left: auto; color: var(--middel); border-color: rgba(255,179,71,.45); background: rgba(255,179,71,.08); }
+.artikel header { align-items: center; }
+.prose { color: #c7d6f2; overflow-wrap: anywhere; }
+.prose > :first-child { margin-top: 0; }
+.prose > :last-child { margin-bottom: 0; }
+.prose p { margin: 0 0 .8em; }
+.prose ol, .prose ul { padding-left: 1.4em; margin: 0 0 .8em; }
+.prose li { margin-bottom: .3em; }
+.prose li > ul, .prose li > ol { margin-top: .3em; margin-bottom: 0; }
+.prose strong { color: var(--text); }
+.prose h4, .prose h5 { font-size: 1.05rem; margin: 1.2em 0 .4em; color: var(--text); }
+.prose img { max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; margin: 12px 0; }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 1.2em 0; }
+.prose code { background: var(--bg-2); padding: 1px 6px; border-radius: 5px; }
+.prose blockquote { margin: 0 0 .8em; padding: 8px 14px; border-left: 3px solid var(--blue); background: var(--bg-2); border-radius: 0 8px 8px 0; }
+.hoofdstuk > .intro { margin-bottom: 16px; }
+.tw { overflow-x: auto; margin: 0 0 1em; border: 1px solid var(--line); border-radius: 10px; }
+.tw table { border: 0; border-radius: 0; min-width: 420px; background: transparent; }
+.tw th, .tw td { padding: 10px 14px; font-size: .93rem; }
+.tw th { background: var(--bg-2); font-family: var(--font-body); text-transform: none; letter-spacing: 0; font-size: .9rem; color: var(--text); font-weight: 600; }
+.tw tr:last-child td { border-bottom: 0; }
+.admon { background: rgba(255,179,71,.08); border: 1px solid rgba(255,179,71,.35); border-radius: 10px; padding: 12px 16px; margin: 0 0 1em; color: #f1d9b0; }
+.admon > :last-child { margin-bottom: 0; }
+.admon strong { display: block; color: var(--middel); font-family: var(--font-head); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 4px; }

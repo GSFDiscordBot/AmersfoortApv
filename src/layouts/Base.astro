@@ -45,7 +45,7 @@ const paginaTitel = title ? `${title} · Amersfoort RolePlay` : 'Amersfoort Role
           {sets.map((s) => (
             <a href={url(`regels/${s.slug}/`)} class:list={{ active: active === s.slug }}>{s.titel}</a>
           ))}
-          <a href={url('info/')} class:list={{ active: active === 'info' }}>Info</a>
+          <a href={url('info/')} class:list={{ active: active === 'info' }}>Discord</a>
         </nav>
       </div>
     </header>

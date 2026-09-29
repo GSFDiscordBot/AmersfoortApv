@@ -1,35 +1,36 @@
 ---
 import Base from '../../layouts/Base.astro';
 
-// Vul hier de echte invite-links in.
 const servers = [
-  { naam: 'Main', doel: 'De hoofdserver van Amersfoort RolePlay', link: '#' },
-  { naam: 'Support', doel: 'Hulp, vragen en tickets', link: '#' },
-  { naam: 'Underworld', doel: 'De onderwereld-community', link: '#' },
-  { naam: 'Government', doel: 'Overheid en hulpdiensten', link: '#' },
+  { naam: 'Amersfoort RolePlay', doel: 'Main discord server van Amersfoort', link: 'https://discord.gg/afr' },
+  { naam: 'Amersfoort Support', doel: 'Support discord server van Amersfoort', link: 'https://discord.gg/TUAJXAaDke' },
+  { naam: 'Amersfoort Onderwereld', doel: 'Onderwereld discord server van Amersfoort', link: 'https://discord.gg/nQbs7CkVDy' },
+  { naam: 'Amersfoort Overheid', doel: 'Overheids discord server van Amersfoort', link: 'https://discord.gg/qfvpCffkDp' },
 ];
 ---
 
-<Base title="Info" active="info">
+<Base title="Discord-servers" active="info">
   <div class="container">
     <div class="page-head">
       <div class="kicker">Informatie</div>
-      <h1>Discord-servers</h1>
-      <p>De officiële Discord-communities van Amersfoort RolePlay.</p>
+      <h1>Officiële Discord-servers</h1>
+      <p>Amersfoort heeft verschillende Discord-servers die zijn goedgekeurd door de Hoge Raad. Hier vind je belangrijke informatie.</p>
     </div>
     <div class="section">
-      <table>
-        <thead><tr><th>Server</th><th>Waarvoor</th><th></th></tr></thead>
-        <tbody>
-          {servers.map((s) => (
-            <tr>
-              <td><strong>{s.naam}</strong></td>
-              <td>{s.doel}</td>
-              <td><a href={s.link}>Join →</a></td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Server</th><th>Beschrijving</th><th></th></tr></thead>
+          <tbody>
+            {servers.map((s) => (
+              <tr>
+                <td><strong>{s.naam}</strong></td>
+                <td>{s.doel}</td>
+                <td><a href={s.link} rel="noopener">Uitnodiging →</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </Base>
